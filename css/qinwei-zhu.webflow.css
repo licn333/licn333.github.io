@@ -58,7 +58,7 @@
 }
 
 .intro-text2 {
-  width: 70%;
+  width: 80%;
   margin-top: 50px;
   margin-bottom: 0px;
   font-family: 'Open Sans', sans-serif;
@@ -241,6 +241,11 @@
   font-size: 17px;
   font-weight: 300;
   text-align: left;
+}
+
+.proj-section-title{
+    font-weight: 400;
+    color: ＃
 }
 
 .proj-text {
@@ -1022,6 +1027,7 @@
   }
   .project-button {
     display: block;
+    width: 30%;
     margin-right: auto;
     margin-left: auto;
   }
@@ -1080,6 +1086,7 @@
   }
   .project-button {
     display: block;
+    width: 43%;
     margin-right: auto;
     margin-left: auto;
     padding-top: 6px;
