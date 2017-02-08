@@ -75,48 +75,49 @@
   <div class="proj-tab-pane">
     <div class="proj-main-container w-container">
       <h4 class="proj-section-title">Problem</h4>
-      <blockquote class="quote"><span class="quote-text">Cat owners cannot find a way to help cats to lose weight scientifically.</span>
+      <blockquote class="quote"><span class="quote-text">Cat owners cannot find a way to help cats lose weight.</span>
       </blockquote>
-      <p class="proj-text">In 2015, our clients Paul Cashman ‘73, a cat lover and developer, asked Dr. Bruce Kornreich DVM ‘92, PhD ‘05, a veterinary cardiologist and associate director of the Cornell Feline Health Center about ideas for apps that could help cat owners, veterinarians, or feline health researchers manage cat’s health. This app aims to improve the health and well-being of cats, by helping owners manage the cat’s weight through four steps: planning the weight loss, selecting foods that fit within the weight-loss program parameters, monitoring the daily feedings, and tracking the cat’s weight-loss performance.</p>
-      <p class="proj-text">In the Spring 2016 semester, a team of students designed and built the version 1.0 of the app and passed the project to us.&nbsp;Originally, our goal this semester was to design and implement the rest of the features. This is what the version 1.0 looks like:</p>
+      <p class="proj-text">In 2015, our clients Paul Cashman ‘73, a cat lover and developer, asked Dr. Bruce Kornreich DVM ‘92, PhD ‘05, a veterinary cardiologist and associate director of the Cornell Feline Health Center about ideas for apps that could help cat owners, veterinarians, or feline health researchers manage cats' health. This app aims to improve the health and well-being of cats, by helping owners manage the cats' weight through four steps: planning the weight loss, selecting foods that fit within the weight-loss program parameters, monitoring the daily feedings, and tracking the cats' weight-loss performance.</p>
+      <p class="proj-text">In the Spring 2016 semester, a team of students designed and built version 1.0 of the app and passed the project to us.&nbsp;Originally, our goal this semester was to design and implement the rest of the features. This is what version 1.0 looks like:</p>
       <div class="fitcat-box"><img sizes="(max-width: 767px) 96vw, (max-width: 991px) 728px, 940px" src="images/fitcat1.png" srcset="images/fitcat1-p-500x222.png 500w, images/fitcat1-p-800x354.png 800w, images/fitcat1-p-1080x478.png 1080w, images/fitcat1.png 1569w">
       </div>
       <div class="proj-pic-title">- FitCat Version 1.0 -</div>
       <h4 class="proj-section-title">Reflection on Previous Work</h4>
       <blockquote class="quote"><span class="quote-text">Need to get rid of the data-type-based information architecture.</span>
       </blockquote>
-      <p class="proj-text">I believe a good information architecture always leaves room for future features. However, when I saw the app, the first problem that stood out to me was its navigation.</p>
+      <p class="proj-text">I believe a good information architecture always leaves room for future features. However, when I saw the app, the first problem that stood out to me was its navigation:</p>
       <div class="proj-tab w-tabs"></div>
+        <ul class="proj-list">
+        <li class="proj-list-item">When users have multiple cats, they cannot track individual cat's feeding and weight logs easily.</li>
+        <li class="proj-list-item">When adding healthcare and vet hospital features in the future, we need to make extra tabs and thus make it a giant tab bar with more than 7 tabs, which is rare in iOS apps.</li>
+        <li class="proj-list-item">The frequency of using each tab and its functions are not considered.</li>
+      </ul>
+<!--
       <ul class="proj-list">
         <li class="proj-list-item">Home: Holds a list of cats of the cat owners.</li>
         <li class="proj-list-item">Feeding &amp; Weight: All cats's feeding and weight logs mix together under these two tabs.</li>
         <li class="proj-list-item">Tacking: select a cat to see a graph.</li>
         <li class="proj-list-item">Provide a browser extension to allow users check E-verify information on job listing page on other platforms.</li>
       </ul>
+-->
       <div class="fitcat-box"><img sizes="(max-width: 767px) 96vw, (max-width: 991px) 728px, 940px" src="images/fitcat2.png" srcset="images/fitcat2-p-500x80.png 500w, images/fitcat2-p-800x127.png 800w, images/fitcat2-p-1080x172.png 1080w, images/fitcat2.png 1569w">
       </div>
-      <div class="proj-pic-title">- The Main Navigation Tabs of Version 1.0 -</div>
-      <p class="proj-text">This design has the following problems:</p>
-      <ul class="proj-list">
-        <li class="proj-list-item">When users have multiple cats, they cannot track individual cat's feeding and weight logs easily.</li>
-        <li class="proj-list-item">When adding healthcare and vet hospital features in the future, we need to make extra tabs and thus make it a giant tab bar with more than 7 tabs, which is rare in iOS apps.</li>
-        <li class="proj-list-item">The frequency of using each tabs and functions are not considered.</li>
-      </ul>
+      <div class="proj-pic-title">- The Main Navigation Tabs of Version 1.0 -</div>    
       <p class="proj-text">As a result, we decided to redesign the app in a more user-friendly and business-friendly way. But at the same time, we will make the most of the previous code to avoid unworthy effort.</p>
       <h4 class="proj-section-title">Understand the User</h4>
       <blockquote class="quote"><span style="font-size: 20px;">Sketching out the cat owner's profile helps us conclude the requirements of the app.</span>
       </blockquote>
-      <p class="proj-text">Before we dive into design, we did a research on cat owners and instilled some interesting facts:</p>
+      <p class="proj-text">Before we dove into the design, we did research on cat owners and distilled some interesting facts:</p>
       <div class="fitcat-box"><img sizes="(max-width: 767px) 96vw, (max-width: 991px) 728px, 940px" src="images/fitcat3.png" srcset="images/fitcat3-p-500x185.png 500w, images/fitcat3-p-800x296.png 800w, images/fitcat3-p-1080x400.png 1080w, images/fitcat3.png 1569w">
       </div>
       <div class="proj-pic-title">- Understand Cat Owners -</div>
-      <p class="proj-text">Based on our findings, we concluded goals laid the foundation for where we wanted to take the design later：</p>
+      <p class="proj-text">Based on our findings, we came up with the key goals for FitCat 2.0:</p>
       <ul class="proj-list">
-        <li class="proj-list-item"><span class="proj-highlight">The app should allow the user to easily access and manage 2-4 cats’ fitness plans at the same time</span>
+        <li class="proj-list-item"><span class="proj-highlight">The app should allow the user to easily access and manage multiple cats’ fitness plans at the same time</span>
         </li>
-        <li class="proj-list-item"><span class="proj-highlight">The app should be intuitive and easy to the older generations</span>
+        <li class="proj-list-item"><span class="proj-highlight">The app should be intuitive and easy for older generations to use</span>
         </li>
-        <li class="proj-highlight proj-list-item">The app should have a place that stores the information of frequently fed food</li>
+        <li class="proj-highlight proj-list-item">The app should have a place that stores the information of frequently bought food brands</li>
       </ul>
       <h4 class="proj-section-title">Initial Design</h4>
       <blockquote class="quote"><span style="font-size: 20px;">Introduce a new cat-identity-based information architecture.</span>
@@ -125,28 +126,28 @@
       <div class="fitcat-box"><img class="kitchem-img-l" sizes="(max-width: 767px) 72vw, (max-width: 991px) 546px, 705px" src="images/fitcat5.png" srcset="images/fitcat5-p-500x261.png 500w, images/fitcat5-p-800x417.png 800w, images/fitcat5-p-1080x563.png 1080w, images/fitcat5.png 1598w">
       </div>
       <div class="proj-pic-title">- Information Architecture -</div>
-      <blockquote class="quote"><span style="font-size: 20px;">Define two major tasks: "Generate diet plan for a cat" and "Feed the cat".</span>
+      <blockquote class="quote"><span style="font-size: 20px;">Define two major tasks: "Generate diet plan for a cat" and "Feed the cat."</span>
       </blockquote>
       <p class="proj-text">Based on the cat-profile-based architecture, the system should have two main tasks:</p>
       <ol class="proj-list">
-        <li class="proj-list-item"><span class="proj-highlight">Generate diet plan for a cat</span>: In this task, users input the information of a cat and create a profile for it. This task starts from a form and end up in our navigation page - the cat card page.</li>
-        <li class="proj-list-item"><span class="proj-highlight">Feed the cat</span>: In this task, the user input the type and the amount of food they feed each time to record daily-based feeding. This task starts from either the quick link on cat card page or the profile page.</li>
+        <li class="proj-list-item"><span class="proj-highlight">Generate diet plan for a cat</span>: In this task, users input the information of a cat and create a profile for it. This task starts from a form and ends up in our navigation page - the cat card page.</li>
+        <li class="proj-list-item"><span class="proj-highlight">Feed the cat</span>: In this task, the user inputs the type and the amount of food they feed each time to record daily feedings. This task starts from either the quick link on the cat card page or the profile page.</li>
       </ol>
       <div class="fitcat-box fitcat-box-padding"><img class="kitchem-img-l" sizes="(max-width: 767px) 72vw, (max-width: 991px) 546px, 705px" src="images/ceeb44_81107e9114074eae805cc739ec200792-mv2_d_4179_2798_s_4_2.png" srcset="images/ceeb44_81107e9114074eae805cc739ec200792-mv2_d_4179_2798_s_4_2-p-500x337.png 500w, images/ceeb44_81107e9114074eae805cc739ec200792-mv2_d_4179_2798_s_4_2-p-800x538.png 800w, images/ceeb44_81107e9114074eae805cc739ec200792-mv2_d_4179_2798_s_4_2-p-1080x727.png 1080w, images/ceeb44_81107e9114074eae805cc739ec200792-mv2_d_4179_2798_s_4_2.png 1416w">
       </div>
-      <div class="proj-pic-title">- The Wire Frame of Two Major Tasks -</div>
-      <p class="proj-text">Since we needed to finish the design and the implementation in limited time. We decided to have an agreement on the visual style before dive into more detailed interaction design. Thus, I came up with the visual design for the two major tasks.</p>
+      <div class="proj-pic-title">- The Wireframe of Two Major Tasks -</div>
+      <p class="proj-text">Since we needed to finish the design and the implementation within one semester, we decided to have an agreement on the visual style before diving into more detailed interaction design. Thus, I came up with the visual design for the two major tasks.</p>
       <div class="fitcat-box fitcat-box-padding"><img class="kitchem-img-l" sizes="(max-width: 767px) 72vw, (max-width: 991px) 546px, 705px" src="images/Slice-1.png" srcset="images/Slice-1-p-500x345.png 500w, images/Slice-1-p-800x552.png 800w, images/Slice-1-p-1080x745.png 1080w, images/Slice-1-p-1600x1104.png 1600w, images/Slice-1-p-2000x1380.png 2000w, images/Slice-1.png 2076w">
       </div>
       <div class="proj-pic-title">- Visual Design of the Two Major Tasks -</div>
       <h4 class="proj-section-title">Iterations</h4>
       <blockquote class="quote"><span class="quote-text">Matching experience with the real world feeding works better to the elder.</span>
       </blockquote>
-      <p class="proj-text">The first discussion about iteration was around the "Favorite Food" page. In the former user research, we found users normally stick to the same brand of food and thus decide to have a "favorite food" page that hold all of their favorite foods at home. I got the inspiration of designing this page from music apps. The way it works is that it has two tabs. One is "All", under which is all the foods in our database. Another tab is "Favorite", once user mark a food from "All", it goes under the "Favorite tabs".</p>
+      <p class="proj-text">The first discussion about iteration was around the "Favorite Food" page. In the former user research, we found users normally stuck to the same brand of food and thus decided to have a "favorite food" page that holds all of their favorite foods at home. I got the inspiration of designing this page from music apps. The original page had two tabs: one was "All", which listed all the foods in our database. Another tab was labeled "Favorite." Once the user marks a food from "All," it goes under the "Favorite" tab.</p>
       <div class="fitcat-box fitcat-box-padding"><img class="kitchem-img" sizes="(max-width: 767px) 57vw, (max-width: 991px) 436.796875px, 564px" src="images/fitcat6.png" srcset="images/fitcat6-p-500x345.png 500w, images/fitcat6-p-800x552.png 800w, images/fitcat6-p-1080x745.png 1080w, images/fitcat6.png 1598w">
       </div>
       <div class="proj-pic-title">- Previous Playlist alike "Favorite Page"-</div>
-      <p class="proj-text">Then, we had a critique session with our clients Paul and Bruce. They proposed that the elder people may have difficulty understanding the "like" functionality because only few of them get used to the "playlist" interaction. The new challenge became how to design a experience of "Favorite" that makes sense to the elder.</p>
+      <p class="proj-text">Then, we had a critique session with our clients Paul and Bruce. Because the elderly are not familiar with the "like" functionality from music apps, it was hard for them to understand the "Favorite" tab in our first design. The new challenge became how to design the "Favorite" functionality in a way that makes sense to the elderly.</p>
       <p class="proj-text">During the meeting, Paul mentioned that he wanted to name the feeding function "Kitty's bowl", which gave me the inspiration of borrowing the experience from real life rather than from similar digital products. I then introduced a design called "cupboard". The cupboard will hold users' favorite kinds of food, and have a extra food market where users can add food to there cupboard.</p>
       <div class="fitcat-box fitcat-box-padding"><img class="kitchem-img" sizes="(max-width: 767px) 57vw, (max-width: 991px) 436.796875px, 564px" src="images/fitcat7.png" srcset="images/fitcat7-p-500x345.png 500w, images/fitcat7-p-800x552.png 800w, images/fitcat7-p-1080x745.png 1080w, images/fitcat7.png 1598w">
       </div>
