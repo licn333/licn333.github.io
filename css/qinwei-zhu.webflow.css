@@ -93,6 +93,104 @@
   padding-bottom: 0px;
 }
 
+.anchor{
+     z-index:0; 
+    -webkit-transform: translateZ( 0 );
+    transform: translateZ( 0 );
+    -webkit-transition: -webkit-transform 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+/*
+ *Scrolling
+ */
+
+/*
+a[ id= "project-anchor" ]:target ~ #main article.panel {
+    -webkit-transform: translateY( -500px);
+    transform: translateY( -500px );
+}
+
+a[ id= "blog-anchor" ]:target ~ #main article.panel {
+    -webkit-transform: translateY( -1000px );
+    transform: translateY( -1000px );
+}
+*/
+
+/*
+ *Scrolling
+ */
+.blog-divider{
+    height: 1px;
+    width: 70%;
+    background-color: #eee;
+}
+.blog-box a{
+    color:#484848;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.blog-title{
+    margin-top: 40px;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    position: relative;
+    color:#484848;
+    background-color: #fff;
+    -webkit-transition: all 0.1s ease-in-out 0s;
+    transition: all 0.1s ease-in-out 0s;
+}
+
+#blog1:hover {
+    color:#484848;
+    background-color: #f5f5ff;
+}
+
+#blog2:hover {
+    color:#484848;
+    background-color: #fff4f1;
+}
+
+#blog4:hover {
+    color:#484848;
+    background-color: #f1feff;
+}
+
+#blog3:hover {
+    color:#484848;
+    background-color: #f0fff1;
+}
+
+.blog-title:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  bottom: -5px;
+  left: 0;
+  background-color: #ddd;
+  visibility: hidden;
+  -webkit-transform: scaleX(0.7);
+  transform: scaleX(0.7);
+  -webkit-transition: all 0.1s ease-in-out 0s;
+  transition: all 0.1s ease-in-out 0s;
+}
+
+.blog-title:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.blog-info {
+    margin-bottom: 40px;
+    font-weight: 100;
+}
+
+
 .project-1 {
   background-image: -webkit-linear-gradient(270deg, #f5f5ff, #f5f5ff);
   background-image: linear-gradient(180deg, #f5f5ff, #f5f5ff);
@@ -1035,9 +1133,21 @@
   .proj-title {
     font-size: 28px;
   }
+    .blog-divider{
+    width: 100%;
+    }
+    .blog-box{
+        padding-left: 20px; 
+    }
 }
 
 @media (max-width: 479px) {
+        .blog-divider{
+    width: 100%;
+    }
+    .blog-box{
+        padding-left: 20px; 
+    }
   .brandtext {
     font-size: 16px;
     line-height: 20px;
