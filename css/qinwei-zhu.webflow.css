@@ -3,9 +3,9 @@
   left: 0px;
   top: 0px;
   right: 0px;
-  border-style: none none solid;
+/*  border-style: none none solid;
   border-bottom-width: 1px;
-  border-bottom-color: #eee;
+  border-bottom-color: #eee;*/
   background-color: hsla(0, 0%, 100%, .85);
   box-shadow: none;
 }
@@ -40,7 +40,7 @@
   color: #484848;
   font-size: 18px;
   line-height: 40px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .introemoji {
@@ -91,7 +91,7 @@
 }
 
 .intro-container {
-  padding-top: 180px;
+  padding-top: 160px;
   padding-bottom: 0px;
 }
 
@@ -198,14 +198,90 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
   background-image: linear-gradient(180deg, #f5f5ff, #f5f5ff);
 }
 
+/** my code starts here **/
+
 .project-0 {
   padding: 40px 20px;
   border-radius: 15px;
   margin-bottom: 50px;
-  height: 350px;
-  background-image: -webkit-linear-gradient(270deg, #f5f5ff, #f5f5ff);
-  background-image: linear-gradient(180deg, #f5f5ff, #f5f5ff);
 }
+
+.project0-img{
+  padding: 3% 3% ; 
+}
+
+.project-fitcat-img{
+  padding: 4% 5% ; 
+}
+
+.project0-des{
+  padding-top: 3%;
+}
+
+.project-witus{
+    background-color: #EEECFF;
+}
+
+.project-witus-button:hover {
+  border: 1px solid #6d64e1;
+  background-color: #6d64e1;
+  color: #fff;
+  border: none;
+}
+
+.project-fitcat{
+    background-color: #FFE9E3;
+}
+
+.project-fitcat-button:hover {
+  border: 1px solid #E54F3D;
+  background-color: #E54F3D;
+  color: #fff;
+  border: none;
+}
+
+.project-kitchem{
+    background-color: #D5FAFF;
+}
+
+.project-kitchem-button:hover {
+  border: 1px solid #2BBDD1;
+  background-color: #2BBDD1;
+  color: #fff;
+  border: none;
+}
+
+/*.project0-btn{
+  padding: 12px 40px;
+  border: 1px solid #484848;
+  border-radius: 10px;
+  background-color: rgba(255,255,255,0.5);
+  background-image: -webkit-linear-gradient(270deg, transparent, transparent);
+  background-image: linear-gradient(180deg, transparent, transparent);
+  font-family: 'Open Sans', sans-serif;
+  color: #484848;
+  font-size: 16px;
+  font-weight: 400;
+  width: 80%;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.project0-btn:hover{
+  box-shadow: 0 0.5em 0em -0.2em #E0DEF6;
+  background-color: rgba(255,255,255,0.8);
+  color: #716AC8;
+  border: none;
+  transform: translateY(-0.25em);
+}
+*/
+.divider{
+  height: 5px;
+  background-color: #f1f1f1;
+  width: 100%;
+}
+
+/** my code ends here **/
 
 .section-title {
   width: auto;
@@ -263,13 +339,12 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
   font-family: 'Open Sans', sans-serif;
   color: #484848;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
+  width: 60%;
+  text-align: center;
+  transition: 0.2s;
 }
 
-.project-button:hover {
-  border-radius: 50px;
-  background-color: hsla(0, 0%, 100%, .3);
-}
 
 .project-description {
   margin-bottom: 5%;
