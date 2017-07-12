@@ -220,7 +220,12 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
 
 .project-witus{
     background-color: #EEECFF;
+    transition: 0.2s;
 }
+/*.project-witus:hover{
+  transform: translateY(-0.5em);
+  box-shadow: 0 1em 0em -0.4em #8f8f8f;
+}*/
 
 .project-witus-button:hover {
   border: 1px solid #6d64e1;
