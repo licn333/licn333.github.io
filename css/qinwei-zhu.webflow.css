@@ -16,7 +16,7 @@
 }
 
 .brand {
-  font-family: Montserrat, sans-serif;
+  font-family: Nunito, sans-serif;
 }
 
 .navlink {
@@ -36,7 +36,7 @@
 }
 
 .brandtext {
-  font-family: Montserrat, sans-serif;
+  font-family: Nunito, sans-serif;
   color: #484848;
   font-size: 18px;
   line-height: 40px;
@@ -52,9 +52,11 @@
 }
 
 .intro-text1 {
-  font-family: Montserrat, sans-serif;
+  font-family: Nunito, sans-serif;
   color: #484848;
-  font-size: 30px;
+  font-size: 26px;
+  font-weight: 400;
+  padding-right: 10%;
 }
 
 .intro-text2 {
@@ -135,7 +137,7 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
 
 .blog-title{
     margin-top: 40px;
-    font-family: Montserrat, sans-serif;
+    font-family: Nunito, sans-serif;
     font-size: 20px;
     position: relative;
     color:#484848;
@@ -196,6 +198,15 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
   background-image: linear-gradient(180deg, #f5f5ff, #f5f5ff);
 }
 
+.project-0 {
+  padding: 40px 20px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  height: 350px;
+  background-image: -webkit-linear-gradient(270deg, #f5f5ff, #f5f5ff);
+  background-image: linear-gradient(180deg, #f5f5ff, #f5f5ff);
+}
+
 .section-title {
   width: auto;
   margin-top: 80px;
@@ -235,7 +246,7 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
   margin-top: 5%;
   margin-bottom: 5%;
   padding-left: 0px;
-  font-family: Montserrat, sans-serif;
+  font-family: Nunito, sans-serif;
   color: #484848;
   font-size: 24px;
   font-weight: 700;
@@ -307,7 +318,7 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
 
 .proj-title {
   margin-top: 40px;
-  font-family: Montserrat, sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 38px;
   font-weight: 400;
   text-align: center;
@@ -327,7 +338,7 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
 }
 
 .group-heading {
-  font-family: Montserrat, sans-serif;
+  font-family: Nunito, sans-serif;
 }
 
 .proj-section-title {
@@ -365,7 +376,7 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
   padding-right: 7%;
   padding-left: 7%;
   border-left-style: none;
-  font-family: Montserrat, sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 40px;
   line-height: 32px;
   font-weight: 700;
@@ -669,7 +680,7 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
 .next-name {
   margin-top: 0px;
   float: right;
-  font-family: Montserrat, sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 15px;
   font-weight: 700;
 }
@@ -684,7 +695,7 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
 
 .next-title {
   margin-top: 11px;
-  font-family: Montserrat, sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 18px;
   font-weight: 700;
   text-align: right;
@@ -699,7 +710,7 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
 
 .quote-text {
   border-left-style: none;
-  font-family: Montserrat, sans-serif;
+  font-family: Nunito, sans-serif;
   color: #464646;
   font-size: 20px;
   font-weight: 700;
@@ -763,7 +774,7 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
 
 .last-title {
   margin-top: 11px;
-  font-family: Montserrat, sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 18px;
   font-weight: 700;
 }
@@ -942,7 +953,7 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
 .gallery-title {
   margin-bottom: 20px;
   padding-left: 7%;
-  font-family: Montserrat, sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 20px;
 }
 
