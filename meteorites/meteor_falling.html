@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>meteor_falling_anim</title>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<style>
+		html, body {
+			background-color:#111036;
+		}
+		
+		svg {
+			border:dotted 1px #ffffff;
+		}
+		
+		.axis path {
+			stroke: #ffffff;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<div class="showbox"></div>
+	<script>
+		var width = 1000,
+			height = 600,
+			padding = 100;
+					
+		var viewbox = d3.select(".showbox")
+			.append("svg")
+			.attr("id", "viewbox")
+			.attr("width", width)				
+			.attr("height", height);
+
+				
+		var parseData = function(row) {
+			row.id = Number(row.id);
+			row.mass = Number(row.mass);
+			row.year = Number(row.year);
+			var geo = row.GeoLocation;
+            geo = geo.substring(1, geo.length-1);
+            geo = geo.split(",");
+            geo[0] = Number(geo[0]);
+            geo[1] = Number(geo[1]);
+            row.GeoLocation = geo;
+			
+			return row;
+		};
+		
+		//Comparator that change input value to number
+         
+		function ascending(a, b) {
+             a = Number(a);
+             b = Number(b);
+             return a < b ? -1 : a > b ? 1 : a >= b ? 0 : NaN;
+        };
+		
+		function meteorGenerator() {
+						
+			var continent = d3.nest()
+				.key(function(d) {
+					return d.Continent; })
+				.key(function(d) {
+					return d.year;
+				}).sortKeys(ascending)
+				.entries(rawData);
+			
+			var group;	
+			
+			for (var i = 0; i < rawData.length; i++) {
+				if (rawData[i].mass < 9999) {
+					rawData[i].group = "g1";
+				} else if (rawData[i].mass > 10000 && rawData[i].mass < 99999) {
+					rawData[i].group = "g2";
+				} else if (rawData[i].mass > 100000 && rawData[i].mass < 999999) {
+					rawData[i].group = "g3";
+				} else {
+					rawData[i].group = "g4";
+				}
+				
+			};
+			
+			var massRange = [0, 1, 2, 3];//["g1", "g2", "g3", "g4"];
+			var radiusRange = [5, 12, 19, 26];
+			
+			var sizeScale = d3.scaleOrdinal()
+				.domain(massRange) 
+				.range(radiusRange);
+			
+			var recclassRange = [0,1,2];//["Stony", "Iron", "Stony-Iron"];
+            var recclassColorRange = ["#50E3C2", "#F5A623", "#FE1E9A"];
+
+            var reclassColorScale = d3.scaleOrdinal()
+				.domain(recclassRange)
+                .range(recclassColorRange);
+			
+			var continentScale = d3.scaleBand()
+				.domain(rawData.map(function(d) { return d.Continent; }))
+				.range([padding, width - padding])
+				.padding(0.1);
+			
+			var xAxis = d3.axisBottom(continentScale);
+				viewbox.append("g")
+					.attr("class", "axis")
+					.attr("transform", "translate(0, 500)")
+					.call(xAxis);
+			
+			var massRange = d3.extent(rawData, function(d) { return d.mass; });
+			
+			var yScale = d3.scaleLinear()
+				.domain(massRange)
+				.range([height - padding, padding]);
+			
+			var yAxis = d3.axisLeft(yScale).tickSize([3]);
+				viewbox.append("g")
+					.attr("class", "axis")
+					.attr("transform", "translate(100, 0)")
+					.call(yAxis);
+			
+			d3.selectAll(".tick > text")
+				.style("fill", "#ffffff");
+			
+			// Create meteor group
+			var meteor_group = viewbox.append("g")
+				.attr("id", "meteor_group");
+			
+			viewbox.append("text")	
+				.attr("id", "button")
+				.attr("x", 150)
+				.attr("y", 50)
+				.text("click me")
+				.style("font-size", 20)
+				.style("fill", "#ffffff");
+			
+			// Append circle for individual meteor
+			rawData.forEach(function(d) {
+				
+				var randomMax = 0.9,
+					randomMin = 0.7;
+				
+				var random = Math.random()*(randomMax - randomMin) + randomMin;
+				
+				console.log(random);
+
+				function getRandom(min, max) {
+					return Math.random() * (max - min) + min;
+				}
+				
+				// Create motion blur filter
+				var defs = viewbox.append("defs");
+				
+				defs.append("filter")
+					.attr("id", "motionBlur")
+					.attr("width", "300%")
+					.attr("x", "-100%")
+					.attr("height", "200%")
+					.attr("y", "-50%")
+					.append("feGaussianBlur")
+					.attr("class", "blurValues")
+					.attr("in", "SourceGraphic")
+					.attr("stdDeviation", "0 0");
+				
+				// Create meteors group
+				var meteor = meteor_group.append("circle")
+					.attr("id", "meteors")
+					.attr("cx", random*continentScale(d.Continent))
+					.attr("cy", 0)
+					.attr("r", sizeScale(d.group))
+					.style("opacity", 0.8)
+					.style("fill", reclassColorScale(d.recclass))
+					.style("filter", "url(#motionBlur)");
+				
+			});
+			
+			// On click, update with new position;
+			d3.select("#button")
+				.on("click", function() {
+				
+				// Update Circles 
+				viewbox.selectAll("circle")
+					.data(rawData)
+					.transition()
+					.duration(1000)
+					.attr("cx", function(d) { return continentScale(d.Continent); })
+					.attr("cy", yScale(0))
+					.style("opacity", 0);
+				
+				d3.select("#motionBlur .blurValues")
+					.transition().duration(100)
+					.attrTween("stdDeviation", function() { return d3.interpolateString("0 0", "0 8"); })
+			})
+		};
+
+		var rawData;
+		
+		d3.csv("meteorite-cc.csv", parseData, function(data) {
+			
+			rawData = data;
+			
+			meteorGenerator();
+			
+		});
+		
+	</script>
+</body>
+</html>

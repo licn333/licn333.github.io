@@ -1,0 +1,111 @@
+<html> 
+	<head>
+        <title>
+            Project: Qinwei Zhu(qz265), Ying Wang(yw775), Ningxuan He(nh374)
+		</title>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script src="http://d3js.org/topojson.v2.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+		<style>
+            body{background: #0E0A8E};
+		</style>
+    </head>
+	<body>
+        <input type="range" width="200" min="860" max="2013" value="1900" step="1" id="fader"/>
+    	<script>
+            //Parse String number to number
+    		function parseData(row){
+    			row.id = Number(row.id);
+    			row.mass = Number(row.mass);
+    			row.year = Number(row.year);
+    			var geo = row.GeoLocation;
+                geo = geo.substring(1, geo.length-1);
+                geo = geo.split(",");
+                geo[0] = Number(geo[0]);
+                geo[1] = Number(geo[1]);
+                row.GeoLocation = geo;
+                return row;
+    		}
+            //Comparator that change input value to number
+            function ascending(a, b) {
+                a = Number(a);
+                b = Number(b);
+                return a < b ? -1 : a > b ? 1 : a >= b ? 0 : NaN;
+            }
+
+            function drawStack(data, time, svg){
+                var continent = d3.nest()
+                    .key(function (d){ return d.Continent; })
+                    .key(function (d){ return d.year; }).sortKeys(ascending)
+                    .entries(data);
+
+                var max = d3.max(continent, function (d){ return d.values.length; });
+                var stackScale = d3.scaleLinear()
+                    .domain([0,max])
+                    .range([0, 300]);
+
+                var yearRange = d3.extent(continent[0].values, function (d){ return Number(d.key); });
+
+                var selectedData = [];
+                for(var i = 0;i<continent[0].values.length;i++){
+                    if(Number(continent[0].values[i].key)<=time){
+                        for(var x in continent[0].values[i].values){
+                            selectedData.push(continent[0].values[i].values[x]);
+                        }
+                    }
+                }
+
+                var recclassRange = [0,1,2];//["Stony", "Iron", "Stony-Iron"];
+                var recclassColorRange = ["#F30E0E", "#F3810E", "#F3F30E"];
+
+                var reclassColorScale = d3.scaleOrdinal()
+                    .domain(recclassRange)
+                    .range(recclassColorRange);
+
+                var recclass = d3.nest()
+                    .key(function (d){ return d.recclass; })
+                    .entries(selectedData);
+
+                var keys = Array.from(recclass.keys());
+
+                var stack = d3.stack()
+                    .keys(keys)
+                    .value(function (d, key){
+                        return d[key].values.length;
+                    });
+
+                console.log(stack([recclass]));
+
+                var gStackBar = svg.selectAll("rect").data(stack([recclass]));
+                gStackBar.enter().append("rect")
+                    .style("fill", function (d){ return reclassColorScale(d.key); })
+                    .merge(gStackBar)
+                    .transition().duration(1000)
+                    .attr("rx", 3)
+                    .attr("ry", 3)
+                    .attr("width", 40)
+                    .attr("height", function (d){ return stackScale(d[0][1] - d[0][0]); })
+                    .attr("y", function (d, index){ return stackScale( d[0][0]) + index*3; });
+                gStackBar.exit().remove().transition(1000);
+            }
+
+    		d3.csv("meteorite-cc.csv", parseData, function(data){
+                var svg = d3.select("body").append("svg")
+                    .attr("width", "600")
+                    .attr("height", "600");
+                var g = svg.append("g");
+
+                var slider = d3.select("#fader");
+
+                console.log(slider.property("value"));
+
+                slider.on("input", function(){
+                    drawStack(data, parseInt(slider.property("value")),g);
+                    console.log(parseInt(slider.property("value")));
+                });
+                    
+                // drawStack(data, 2012, g);
+            });
+    	</script>
+    </body>
+</html>

@@ -1,0 +1,185 @@
+<html> 
+	<head>
+        <title>
+            Project: Qinwei Zhu(qz265), Ying Wang(yw775), Ningxuan He(nh374)
+		</title>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script src="http://d3js.org/topojson.v2.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+		<style>
+            body{background: #0E0A8E; }
+            input{width: 200px; }
+		</style>
+    </head>
+	<body>
+        <div>
+            <input type="range"  min="1" max="2000" value="1" step="1" id="fader">
+        </div>
+        
+        
+    	<script>
+            //Parse String number to number
+    		function parseData(row){
+    			row.id = Number(row.id);
+    			row.mass = Number(row.mass);
+    			row.year = Number(row.year);
+    			var geo = row.GeoLocation;
+                geo = geo.substring(1, geo.length-1);
+                geo = geo.split(",");
+                geo[0] = Number(geo[0]);
+                geo[1] = Number(geo[1]);
+                row.GeoLocation = geo;
+                return row;
+    		}
+            //Comparator that change input value to number
+            function ascending(a, b) {
+                a = Number(a);
+                b = Number(b);
+                return a < b ? -1 : a > b ? 1 : a >= b ? 0 : NaN;
+            }
+
+            //Process data
+            function selectDataBefore(continentAndYearData, time){
+                var meteoriteList = [];
+                continentAndYearData.forEach(function (continentEntry){
+                    meteoriteList[continentEntry.key] = [];
+                    continentEntry.values.forEach(function (timeEntry){
+                        if(Number(timeEntry.key)<=time){
+                            timeEntry.values.forEach(function (dataEntry){
+                                meteoriteList[continentEntry.key].push(dataEntry);
+                            });
+                        }
+                    });
+                });
+                return meteoriteList;
+            }
+
+            function selectData(continentAndYearData, time){
+                var meteoriteList = [];
+                continentAndYearData.forEach(function (continentEntry){
+                    meteoriteList[continentEntry.key] = [];
+                    continentEntry.values.forEach(function (timeEntry){
+                        if(Number(timeEntry.key)==time){
+                            timeEntry.values.forEach(function (dataEntry){
+                                meteoriteList[continentEntry.key].push(dataEntry);
+                            });
+                        }
+                    });
+                });
+                return meteoriteList;
+            }
+            
+            //Draw stack diagram
+            function drawStack(continentAndYearData, time, groups, continentAbbr, maxMeteorite){
+                var heightOfStack = 300;
+
+                var continentDataBeforeTime = selectDataBefore(continentAndYearData, time);
+
+                var recclassContinents = [];
+                continentAbbr.forEach(function (contAbbr){
+                    var recclass = d3.nest()
+                        .key(function (d){ return d.recclass; })
+                        .entries(continentDataBeforeTime[contAbbr]);
+                    recclassContinents[contAbbr] = recclass;
+                });
+
+                var recclassRange = ["Stony", "Iron", "Stony-Iron"];
+                var recclassColorRange = ["#F30E0E", "#F3810E", "#F3F30E"];
+                var reclassColorScale = d3.scaleOrdinal()
+                    .domain(recclassRange)
+                    .range(recclassColorRange);
+
+                var classes = [];
+                continentAbbr.forEach(function (contAbbr){
+                    classes[contAbbr] = [];
+                    recclassContinents[contAbbr].forEach(function (d){
+                        classes[contAbbr].push(d.key);
+                    });
+                });
+
+                //Build stackScale according to the max number of meteorites among all continents
+                var stackScale = d3.scaleLinear()
+                    .domain([0,maxMeteorite])
+                    .range([0, heightOfStack]);
+
+                continentAbbr.forEach(function (contAbbr){
+                    var stack = d3.stack()
+                        .keys(classes[contAbbr])
+                        .value(function (d, key){
+                            var result;
+                            d.forEach(function (obj){
+                                if(obj.key == key)
+                                    result = obj;
+                            });
+                            return result.values.length;
+                        });
+
+                    var stackData = stack([recclassContinents[contAbbr]]);
+                    
+                    console.log(stackData);
+                    
+                    var gStackBar = groups[contAbbr].selectAll("rect").data(stackData);
+                    gStackBar.enter().append("rect")
+                        .style("fill", function (d){ return reclassColorScale(d.key); })
+                        .merge(gStackBar)
+                        .transition().duration(1000)
+                        .attr("rx", 3)
+                        .attr("ry", 3)
+                        .attr("width", 40)
+                        .attr("height", function (d){ return stackScale(d[0][1] - d[0][0]); })
+                        .attr("y", function (d, index){ return stackScale(d[0][0]) + index*3; });
+                    gStackBar.exit().remove().transition(1000);
+                    
+                });
+            }
+
+    		d3.csv("meteorite-cc.csv", parseData, function(data){
+                //SVG Definition
+                var svg = d3.select("body").append("svg")
+                    .attr("width", "600")
+                    .attr("height", "600");
+
+                //Data processing
+                //Find max number of meteorite among all continent
+                var continentData = d3.nest()
+                    .key(function (d){ return d.Continent; })
+                    .entries(data);
+
+                continentAbbr = [];
+                continentData.forEach(function (d) {
+                    continentAbbr.push(d.key);
+                });
+                
+                var maxMeteorite = d3.max(continentData, function (d){ return d.values.length; });
+
+                var continentAndYearData = d3.nest()
+                    .key(function (d){ return d.Continent; })
+                    .key(function (d){ return d.year; }).sortKeys(ascending)
+                    .entries(data);
+                
+                var groups = [];
+                continentAbbr.forEach(function (d, index){
+                    groups[d] = svg.append("g")
+                        .attr("id", d)
+                        .attr("transform", "translate("+index*50+",0)");
+                });
+
+                //Draw Stacks
+                var logScale = d3.scaleLog()
+                    .domain([1, 2000])
+                    .range([859, 2013])
+                    ;
+
+
+                var slider = d3.select("#fader");
+
+                slider.on("input", function(){
+                    drawStack(continentAndYearData, logScale(parseInt(slider.property("value"))),groups, continentAbbr, maxMeteorite);
+                    console.log(logScale(parseInt(slider.property("value"))));
+                });
+                    
+                drawStack(continentAndYearData, parseInt(slider.property("value")),groups, continentAbbr, maxMeteorite);
+            });
+    	</script>
+    </body>
+</html>

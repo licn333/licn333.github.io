@@ -1,0 +1,995 @@
+name,id,nametype,recclass,mass,fall,GeoLocation,year,Country,Continent
+M神ssing,15443,Valid,Stony,1600,Fell,"(48.133330, 12.616670)",1803,Germany,EU
+Apt,2320,Valid,Stony,3200,Fell,"(43.866670, 5.383330)",1803,France,EU
+L'Aigle,12434,Valid,Stony,37000,Fell,"(48.766670, 0.633330)",1803,France,EU
+Bocas,5093,Valid,Stony,56,Fell,"(23.000000, -102.000000)",1804,Mexico,NA
+Darmstadt,6603,Valid,Stony,100,Fell,"(49.866670, 8.650000)",1804,Germany,EU
+High Possil,11884,Valid,Stony,4500,Fell,"(55.900000, -4.233330)",1804,United Kingdom,EU
+Asco,2345,Valid,Stony,41,Fell,"(42.450000, 9.033330)",1805,France,EU
+Doroninsk,7718,Valid,Stony,3891,Fell,"(51.200000, 112.300000)",1805,Russia,EU
+Alais,448,Valid,Stony,6000,Fell,"(44.116670, 4.083330)",1806,France,EU
+Timochin,24004,Valid,Stony,65500,Fell,"(54.500000, 35.200000)",1807,Russia,EU
+Weston,24249,Valid,Stony,150000,Fell,"(41.266667, -73.266667)",1807,United States,NA
+Moradabad,16740,Valid,Stony,70,Fell,"(28.783330, 78.833330)",1808,India,AS
+Borgo San Donino,5110,Valid,Stony,1676,Fell,"(44.866670, 10.050000)",1808,Italy,EU
+Kikino,12306,Valid,Stony,195,Fell,"(55.000000, 34.000000)",1809,Russia,EU
+Caswell County,5296,Valid,Stony,1360,Fell,"(36.500000, -79.250000)",1810,United States,NA
+Mooresfort,16737,Valid,Stony,3520,Fell,"(52.450000, -8.333330)",1810,Ireland,EU
+Charsonville,5329,Valid,Stony,27000,Fell,"(47.933330, 1.566670)",1810,France,EU
+Punganaru,18902,Valid,Stony,100,Fell,"(13.333330, 78.950000)",1811,India,AS
+Berlanguillas,5029,Valid,Stony,1440,Fell,"(41.683330, -3.800000)",1811,Spain,EU
+Kuleschovka,12370,Valid,Stony,6000,Fell,"(50.750000, 33.500000)",1811,Ukraine,EU
+Borodino,5114,Valid,Stony,500,Fell,"(55.466670, 35.866670)",1812,Russia,EU
+Toulouse,24036,Valid,Stony,1030,Fell,"(43.600000, 1.400000)",1812,France,EU
+Erxleben,10049,Valid,Stony,2250,Fell,"(52.216670, 11.250000)",1812,Germany,EU
+Chantonnay,5325,Valid,Stony,31500,Fell,"(46.683330, 1.050000)",1812,France,EU
+Luotolax,14756,Valid,Stony,885,Fell,"(61.200000, 27.700000)",1813,Finland,EU
+Limerick,14652,Valid,Stony,50000,Fell,"(52.566670, -8.783330)",1813,Ireland,EU
+Chail,5314,Valid,Stony,0.5,Fell,"(25.366670, 81.666670)",1814,India,AS
+Gurram Konda,11464,Valid,Stony,28,Fell,"(13.783330, 78.566670)",1814,India,AS
+Bachmut,4917,Valid,Stony,18000,Fell,"(48.600000, 38.000000)",1814,Ukraine,EU
+Agen,392,Valid,Stony,30000,Fell,"(44.216670, 0.616670)",1814,France,EU
+Chassigny,5331,Valid,Stony,4000,Fell,"(47.716670, 5.366670)",1815,France,EU
+Durala,7750,Valid,Stony,13200,Fell,"(30.300000, 76.633330)",1815,India,AS
+Hachi-oji,11468,Valid,Stony,0.2,Fell,"(35.650000, 139.333330)",1817,Japan,AS
+Slobodka,23645,Valid,Stony,2750,Fell,"(55.000000, 35.000000)",1818,Russia,EU
+Zaborzika,30379,Valid,Stony,3867,Fell,"(50.283330, 27.683330)",1818,Ukraine,EU
+Seres,23501,Valid,Stony,8500,Fell,"(41.050000, 23.566670)",1818,Greece,EU
+Pohlitz,18853,Valid,Stony,3000,Fell,"(50.933330, 12.133330)",1819,Germany,EU
+Jonzac,12202,Valid,Stony,5000,Fell,"(45.433330, -0.450000)",1819,France,EU
+Lixna,14670,Valid,Stony,5213,Fell,"(56.000000, 26.433330)",1820,Latvia,EU
+Juvinas,12214,Valid,Stony,91000,Fell,"(44.716670, 4.300000)",1821,France,EU
+Kadonah,12221,Valid,Stony,89,Fell,"(27.083330, 78.333330)",1822,India,AS
+Umbala,24112,Valid,Stony,100,Fell,"(30.333330, 76.333330)",1822,India,AS
+神pinal,10041,Valid,Stony,277,Fell,"(48.183330, 6.466670)",1822,France,EU
+Futtehpur,10839,Valid,Stony,4000,Fell,"(25.950000, 80.816670)",1822,India,AS
+Botschetschki,5117,Valid,Stony,614,Fell,"(51.333330, 33.883330)",1823,Ukraine,EU
+Nobleborough,16984,Valid,Stony,2300,Fell,"(44.083330, -69.483330)",1823,United States,NA
+Renazzo,22586,Valid,Stony,1000,Fell,"(44.766670, 11.283330)",1824,Italy,EU
+Tounkin,24037,Valid,Stony,2000,Fell,"(51.733330, 102.533330)",1824,Russia,EU
+Honolulu,11904,Valid,Stony,2420,Fell,"(21.300000, -157.866670)",1825,United States,NA
+Nanjemoy,16904,Valid,Stony,7500,Fell,"(38.416670, -77.166670)",1825,United States,NA
+Mineo,16696,Valid,Stony-Iron,42,Fell,"(37.283330, 14.700000)",1826,Italy,EU
+Galapian,10846,Valid,Stony,132.7,Fell,"(44.300000, 0.400000)",1826,France,EU
+Pavlograd,18176,Valid,Stony,40000,Fell,"(48.533330, 35.983330)",1826,Ukraine,EU
+Mhow,16629,Valid,Stony,350,Fell,"(25.900000, 83.616670)",1827,India,AS
+Drake Creek,7728,Valid,Stony,5000,Fell,"(36.400000, -86.500000)",1827,United States,NA
+Richmond,22603,Valid,Stony,1800,Fell,"(37.466670, -77.500000)",1828,United States,NA
+Deal,6634,Valid,Stony,28,Fell,"(40.250000, -74.000000)",1829,United States,NA
+Krasnoi-Ugol,12355,Valid,Stony,2440,Fell,"(54.033330, 40.900000)",1829,Russia,EU
+Forsyth,10164,Valid,Stony,16300,Fell,"(33.016670, -83.966670)",1829,United States,NA
+Perth,18797,Valid,Stony,2,Fell,"(56.400000, -3.433330)",1830,United Kingdom,EU
+Vouill姓,24191,Valid,Stony,20000,Fell,"(46.633330, 0.166670)",1831,France,EU
+Charwallas,5330,Valid,Stony,12000,Fell,"(29.483330, 75.500000)",1834,India,AS
+Okniny,18002,Valid,Stony,12000,Fell,"(50.833330, 25.500000)",1834,Ukraine,EU
+Aldsworth,461,Valid,Stony,700,Fell,"(51.783330, -1.783330)",1835,United Kingdom,EU
+Charlotte,5328,Valid,Iron,4300,Fell,"(36.166670, -87.333330)",1835,United States,NA
+Aubres,4893,Valid,Stony,800,Fell,"(44.383330, 5.166670)",1836,France,EU
+Mascombes,15438,Valid,Stony,1000,Fell,"(45.366670, 1.866670)",1836,France,EU
+Macau,15370,Valid,Stony,1500,Fell,"(-5.200000, -36.666670)",1836,Brazil,SA
+Esnandes,10051,Valid,Stony,1500,Fell,"(46.250000, -1.100000)",1837,France,EU
+Gross-Divina,11207,Valid,Stony,10500,Fell,"(49.266670, 18.716670)",1837,Slovakia,EU
+Yonozu,30366,Valid,Stony,31650,Fell,"(37.750000, 139.000000)",1837,Japan,AS
+Kaee,12222,Valid,Stony,230,Fell,"(27.250000, 79.966670)",1838,India,AS
+Montlivault,16729,Valid,Stony,500,Fell,"(47.633330, 1.583330)",1838,France,EU
+Akbarpur,427,Valid,Stony,1800,Fell,"(29.716670, 77.950000)",1838,India,AS
+Cold Bokkeveld,5397,Valid,Stony,5200,Fell,"(-33.133330, 19.383330)",1838,South Africa,AF
+Chandakapur,5320,Valid,Stony,8800,Fell,"(20.266670, 76.016670)",1838,India,AS
+Little Piney,14664,Valid,Stony,491,Fell,"(37.916670, -92.083330)",1839,United States,NA
+Karakol,12256,Valid,Stony,3000,Fell,"(47.216670, 81.016670)",1840,Kazakhstan,AS
+Cereseto,5308,Valid,Stony,6460,Fell,"(45.083330, 8.300000)",1840,Italy,EU
+St. Christophe-la-Chartreuse,23082,Valid,Stony,5500,Fell,"(46.950000, -1.500000)",1841,France,EU
+Ch世teau-Renard,5332,Valid,Stony,30000,Fell,"(47.933330, 2.916670)",1841,France,EU
+Aumieres,4900,Valid,Stony,2000,Fell,"(44.333330, 3.233330)",1842,France,EU
+Barea,4946,Valid,Stony-Iron,3200,Fell,"(42.383330, -2.500000)",1842,Spain,EU
+Milena,16640,Valid,Stony,10000,Fell,"(46.183330, 16.100000)",1842,Croatia,EU
+Manegaon,15403,Valid,Stony,50,Fell,"(20.966670, 76.100000)",1843,India,AS
+Klein-Wenden,12332,Valid,Stony,3250,Fell,"(51.600000, 10.800000)",1843,Germany,EU
+Bishopville,5059,Valid,Stony,6000,Fell,"(34.166670, -80.283330)",1843,United States,NA
+Verkhne Tschirskaia,24165,Valid,Stony,8000,Fell,"(48.416670, 43.200000)",1843,Russia,EU
+Killeter,12309,Valid,Stony,140,Fell,"(54.666670, -7.666670)",1844,United Kingdom,EU
+Cosina,5451,Valid,Stony,1200,Fell,"(21.166670, -100.866670)",1844,Mexico,NA
+Favars,10078,Valid,Stony,1500,Fell,"(44.383330, 2.816670)",1844,France,EU
+Le Teilleul,12749,Valid,Stony,780,Fell,"(48.533330, -0.866670)",1845,France,EU
+Le Pressoir,12748,Valid,Stony,3000,Fell,"(47.166670, 0.433330)",1845,France,EU
+Cape Girardeau,5260,Valid,Stony,2300,Fell,"(37.266670, -89.583330)",1846,United States,NA
+Monte Milone,16726,Valid,Stony,3130,Fell,"(43.266670, 13.350000)",1846,Italy,EU
+Sch神nenberg,23460,Valid,Stony,8000,Fell,"(48.116670, 10.466670)",1846,Germany,EU
+Marion (Iowa),15424,Valid,Stony,28400,Fell,"(41.900000, -91.600000)",1847,United States,NA
+Castine,5293,Valid,Stony,94,Fell,"(44.383330, -68.750000)",1848,United States,NA
+Ski,23621,Valid,Stony,850,Fell,"(59.733330, 10.866670)",1848,Norway,EU
+Dharwar,6699,Valid,Stony,1800,Fell,"(14.883330, 75.600000)",1848,India,AS
+Marmande,15429,Valid,Stony,3000,Fell,"(44.500000, 0.150000)",1848,France,EU
+Monroe,16720,Valid,Stony,8600,Fell,"(35.250000, -80.500000)",1849,United States,NA
+Shalka,23521,Valid,Stony,4000,Fell,"(23.100000, 87.300000)",1850,India,AS
+Kesen,12286,Valid,Stony,135000,Fell,"(38.983330, 141.616670)",1850,Japan,AS
+Quincay,22363,Valid,Stony,65,Fell,"(46.600000, 0.250000)",1851,France,EU
+G神tersloh,11466,Valid,Stony,1000,Fell,"(51.916670, 8.383330)",1851,Germany,EU
+Nulles,17959,Valid,Stony,5000,Fell,"(41.633330, 0.750000)",1851,Spain,EU
+Bustee,5181,Valid,Stony,1500,Fell,"(26.783330, 82.833330)",1852,India,AS
+Borkut,5113,Valid,Stony,7000,Fell,"(48.150000, 24.283330)",1852,Ukraine,EU
+Yatoor,30358,Valid,Stony,13600,Fell,"(14.300000, 79.766670)",1852,India,AS
+Mez神-Madaras,16628,Valid,Stony,22700,Fell,"(46.500000, 25.733330)",1852,Romania,EU
+Duruma,7752,Valid,Stony,577,Fell,"(-4.000000, 39.500000)",1853,Kenya,AF
+Segowlie,23476,Valid,Stony,6930,Fell,"(26.750000, 84.783330)",1853,India,AS
+Girgenti,10917,Valid,Stony,18000,Fell,"(37.316670, 13.566670)",1853,Italy,EU
+Linum,14655,Valid,Stony,1862,Fell,"(52.750000, 12.900000)",1854,Germany,EU
+Avilez,4907,Valid,Stony,146,Fell,"(25.000000, -103.500000)",1855,Mexico,NA
+St. Denis Westrem,23083,Valid,Stony,700,Fell,"(51.050000, 3.750000)",1855,Belgium,EU
+Sabetmahet,22792,Valid,Stony,1250,Fell,"(27.433330, 82.083330)",1855,India,AS
+Petersburg,18801,Valid,Stony,1800,Fell,"(35.300000, -86.633330)",1855,United States,NA
+Oesel,17989,Valid,Stony,6000,Fell,"(58.500000, 23.000000)",1855,Estonia,EU
+Bremerv神rde,5135,Valid,Stony,7250,Fell,"(53.400000, 9.100000)",1855,Germany,EU
+Oviedo,18058,Valid,Stony,205,Fell,"(43.400000, -5.866670)",1856,Spain,EU
+Trenzano,24046,Valid,Stony,11800,Fell,"(45.466670, 10.000000)",1856,Italy,EU
+Les Ormes,12769,Valid,Stony,125,Fell,"(48.350000, 3.250000)",1857,France,EU
+Heredia,11875,Valid,Stony,1000,Fell,"(10.000000, -84.100000)",1857,Costa Rica,NA
+Stavropol,23717,Valid,Stony,1500,Fell,"(45.050000, 41.983330)",1857,Russia,EU
+Kaba,12218,Valid,Stony,3000,Fell,"(47.350000, 21.300000)",1857,Hungary,EU
+Ohaba,17995,Valid,Stony,16250,Fell,"(46.066670, 23.583330)",1857,Romania,EU
+Parnallee,18108,Valid,Stony,77600,Fell,"(9.233330, 78.350000)",1857,India,AS
+Zmenj,30411,Valid,Stony,246,Fell,"(51.833330, 26.833330)",1858,Belarus,EU
+Kakowa,12231,Valid,Stony,577,Fell,"(45.133330, 21.666670)",1858,Romania,EU
+Ausson,4903,Valid,Stony,50000,Fell,"(43.083330, 0.583330)",1858,France,EU
+Molina,16715,Valid,Stony,144000,Fell,"(38.116670, -1.166670)",1858,Spain,EU
+Bethlehem,5032,Valid,Stony,13.9,Fell,"(42.533330, -73.833330)",1859,United States,NA
+Harrison County,11842,Valid,Stony,680,Fell,"(38.250000, -86.166670)",1859,United States,NA
+Beuste,5034,Valid,Stony,2000,Fell,"(43.216670, -0.233330)",1859,France,EU
+Pampanga,18093,Valid,Stony,10500,Fell,"(15.083330, 120.700000)",1859,Philippines,AS
+Kusiali,12382,Valid,Stony,5,Fell,"(29.683330, 78.383330)",1860,India,AS
+Sologne,23663,Valid,Stony,54,Fell,"(47.366670, 1.733330)",1860,France,EU
+Kheragur,12294,Valid,Stony,450,Fell,"(26.950000, 77.883330)",1860,India,AS
+Alessandria,463,Valid,Stony,908,Fell,"(44.883330, 8.750000)",1860,Italy,EU
+Dhurmsala,7640,Valid,Stony,32000,Fell,"(32.233330, 76.466670)",1860,India,AS
+New Concord,16953,Valid,Stony,230000,Fell,"(40.000000, -81.766670)",1860,United States,NA
+Meerut,15469,Valid,Stony,22,Fell,"(29.016670, 77.800000)",1861,India,AS
+Ca棲ellas,5251,Valid,Stony,945,Fell,"(41.250000, 1.666670)",1861,Spain,EU
+Grosnaja,11206,Valid,Stony,3500,Fell,"(43.666670, 45.383330)",1861,Russia,EU
+Butsura,5183,Valid,Stony,29000,Fell,"(27.083330, 84.083330)",1861,India,AS
+Sevilla,23508,Valid,Stony,180,Fell,"(37.416670, -6.000000)",1862,Spain,EU
+Menow,15485,Valid,Stony,10500,Fell,"(53.183330, 13.150000)",1862,Germany,EU
+Pulsora,18899,Valid,Stony,560,Fell,"(23.366670, 75.183330)",1863,India,AS
+Manbhoom,15402,Valid,Stony,1700,Fell,"(23.050000, 86.700000)",1863,India,AS
+Shytal,23584,Valid,Stony,3200,Fell,"(24.333330, 90.166670)",1863,Bangladesh,AS
+Buschhof,5178,Valid,Stony,5000,Fell,"(46.450000, 25.783330)",1863,Romania,EU
+Tourinnes-la-Grosse,24038,Valid,Stony,14500,Fell,"(50.783330, 4.766670)",1863,Belgium,EU
+Pillistfer,18822,Valid,Stony,23250,Fell,"(58.666670, 25.733330)",1863,Estonia,EU
+Dolgovoli,7659,Valid,Stony,1600,Fell,"(50.750000, 25.300000)",1864,Ukraine,EU
+Nerft,16945,Valid,Stony,10250,Fell,"(56.500000, 21.500000)",1864,Latvia,EU
+Orgueil,18026,Valid,Stony,14000,Fell,"(43.883330, 1.383330)",1864,France,EU
+Vernon County,24168,Valid,Stony,1500,Fell,"(43.500000, -91.166670)",1865,United States,NA
+Gopalpur,10948,Valid,Stony,1600,Fell,"(24.233330, 89.050000)",1865,Bangladesh,AS
+Dundrum,7745,Valid,Stony,2270,Fell,"(52.550000, -8.033330)",1865,Ireland,EU
+Muddoor,16841,Valid,Stony,4400,Fell,"(12.633330, 77.016670)",1865,India,AS
+Shergotty,23530,Valid,Stony,5000,Fell,"(24.550000, 84.833330)",1865,India,AS
+Supuhee,23760,Valid,Stony,7235,Fell,"(26.716670, 84.216670)",1865,India,AS
+Aumale,4899,Valid,Stony,50000,Fell,"(36.166670, 3.666670)",1865,Algeria,AF
+Jamkheir,12072,Valid,Stony,22,Fell,"(18.750000, 75.333330)",1866,India,AS
+Pokhra,18858,Valid,Stony,350,Fell,"(26.716670, 82.666670)",1866,India,AS
+Udipi,24104,Valid,Stony,3600,Fell,"(13.483330, 74.783330)",1866,India,AS
+St. Mesmin,23092,Valid,Stony,8300,Fell,"(48.450000, 3.933330)",1866,France,EU
+Sone,23667,Valid,Stony,17100,Fell,"(35.166670, 135.333330)",1866,Japan,AS
+Cangas de Onis,5252,Valid,Stony,34000,Fell,"(43.383330, -5.150000)",1866,Spain,EU
+Knyahinya,12335,Valid,Stony,500000,Fell,"(48.900000, 22.400000)",1866,Slovakia,EU
+Khetri,12296,Valid,Stony,100,Fell,"(28.016670, 75.816670)",1867,India,AS
+Otomi,18045,Valid,Stony,6510,Fell,"(38.400000, 140.350000)",1867,Japan,AS
+Tadjera,23778,Valid,Stony,9000,Fell,"(36.183330, 5.416670)",1867,Algeria,AF
+Pnompehn,18851,Valid,Stony,96,Fell,"(11.583330, 104.916670)",1868,Cambodia,AS
+Frankfort (stone),10177,Valid,Stony,650,Fell,"(34.483330, -87.833330)",1868,United States,NA
+Lodran,14675,Valid,Stony,1000,Fell,"(29.533330, 71.800000)",1868,Pakistan,AS
+Daniel's Kuil,5513,Valid,Stony,1064,Fell,"(-28.200000, 24.566670)",1868,South Africa,AF
+Moti-ka-nagla,16759,Valid,Stony,1500,Fell,"(26.833330, 77.333330)",1868,India,AS
+Slavetic,23626,Valid,Stony,1708,Fell,"(45.683330, 15.600000)",1868,Croatia,EU
+Danville,5514,Valid,Stony,2000,Fell,"(34.400000, -87.066670)",1868,United States,NA
+Sauguis,23188,Valid,Stony,4000,Fell,"(43.150000, -0.850000)",1868,France,EU
+Ornans,18030,Valid,Stony,6000,Fell,"(47.116670, 6.150000)",1868,France,EU
+Motta di Conti,16762,Valid,Stony,9150,Fell,"(45.200000, 8.500000)",1868,Italy,EU
+Pultusk,18901,Valid,Stony,250000,Fell,"(52.766670, 21.266670)",1868,Poland,EU
+Yorktown (New York),30370,Valid,Stony,250,Fell,"(41.283330, -73.816670)",1869,United States,NA
+Lumpkin,14753,Valid,Stony,340,Fell,"(32.033330, -84.766670)",1869,United States,NA
+Angra dos Reis (stone),2302,Valid,Stony,1500,Fell,"(-22.966670, -44.316670)",1869,Brazil,SA
+Kr神henberg,12353,Valid,Stony,16500,Fell,"(49.326940, 7.464720)",1869,Germany,EU
+Hessle,11878,Valid,Stony,20000,Fell,"(59.850000, 17.666670)",1869,Sweden,EU
+Tjabe,24011,Valid,Stony,20000,Fell,"(-7.083330, 111.533330)",1869,Indonesia,AS
+Kernouve,12284,Valid,Stony,80000,Fell,"(48.116670, -3.083330)",1869,France,EU
+Ibbenb神ren,11992,Valid,Stony,2000,Fell,"(52.283330, 7.700000)",1870,Germany,EU
+Nedagolla,16935,Valid,Iron,4500,Fell,"(18.683330, 83.483330)",1870,India,AS
+Cabezo de Mayo,5185,Valid,Stony,25000,Fell,"(37.983330, -1.166670)",1870,Spain,EU
+Roda,22641,Valid,Stony,400,Fell,"(42.300000, 0.550000)",1871,Spain,EU
+Laborel,12408,Valid,Stony,3833,Fell,"(44.283330, 5.583330)",1871,France,EU
+Searsmont,23472,Valid,Stony,5400,Fell,"(44.366670, -69.200000)",1871,United States,NA
+Bandong,4935,Valid,Stony,11500,Fell,"(-6.916670, 107.600000)",1871,Indonesia,AS
+Dyalpur,7757,Valid,Stony,300,Fell,"(26.250000, 82.000000)",1872,India,AS
+Orvinio,18034,Valid,Stony,3400,Fell,"(42.133330, 12.933330)",1872,Italy,EU
+Tennasilm,23898,Valid,Stony,28500,Fell,"(58.033330, 26.950000)",1872,Estonia,EU
+Lanc姓,12455,Valid,Stony,51700,Fell,"(47.700000, 1.066670)",1872,France,EU
+Santa Barbara,23161,Valid,Stony,400,Fell,"(-29.200000, -51.866670)",1873,Brazil,SA
+Aleppo,462,Valid,Stony,3200,Fell,"(36.233330, 37.133330)",1873,Syria,AS
+Virba,24185,Valid,Stony,3600,Fell,"(43.533330, 22.633330)",1873,Bulgaria,EU
+Jhung,12085,Valid,Stony,5900,Fell,"(31.300000, 72.383330)",1873,Pakistan,AS
+Khairpur,12288,Valid,Stony,13600,Fell,"(29.533330, 72.300000)",1873,Pakistan,AS
+Kerilis,12282,Valid,Stony,5000,Fell,"(48.400000, -3.300000)",1874,France,EU
+Castalia,5291,Valid,Stony,7300,Fell,"(36.083330, -78.066670)",1874,United States,NA
+Sevrukovo,23509,Valid,Stony,101000,Fell,"(50.616670, 36.600000)",1874,Russia,EU
+Nagaria,16892,Valid,Stony,20,Fell,"(26.983330, 78.216670)",1875,India,AS
+Feid Chair,10080,Valid,Stony,380,Fell,"(36.883330, 8.450000)",1875,Algeria,AF
+Zsadany,30413,Valid,Stony,552,Fell,"(46.933330, 21.500000)",1875,Hungary,EU
+Mornans,16747,Valid,Stony,1300,Fell,"(44.600000, 5.133330)",1875,France,EU
+Sitathali,23616,Valid,Stony,1600,Fell,"(20.916670, 82.583330)",1875,India,AS
+Homestead,11901,Valid,Stony,230000,Fell,"(41.800000, -91.866670)",1875,United States,NA
+Rochester,22637,Valid,Stony,340,Fell,"(41.083330, -86.283330)",1876,United States,NA
+Judesegeri,12207,Valid,Stony,680,Fell,"(12.850000, 76.800000)",1876,India,AS
+Vavilovka,24154,Valid,Stony,1932,Fell,"(46.150000, 32.833330)",1876,Ukraine,EU
+Rowton,22773,Valid,Iron,3500,Fell,"(52.766670, -2.516670)",1876,United Kingdom,EU
+St神lldalen,23712,Valid,Stony,34000,Fell,"(59.933330, 14.950000)",1876,Sweden,EU
+Bhagur,5037,Valid,Stony,18,Fell,"(20.883330, 74.833330)",1877,India,AS
+Jodzie,12173,Valid,Stony,30,Fell,"(55.700000, 24.400000)",1877,Lithuania,EU
+Hungen,11986,Valid,Stony,112,Fell,"(50.300000, 8.916670)",1877,Germany,EU
+Warrenton,24215,Valid,Stony,1600,Fell,"(38.683330, -91.150000)",1877,United States,NA
+Cronstad,5474,Valid,Stony,3650,Fell,"(-27.700000, 27.300000)",1877,South Africa,AF
+Cynthiana,5500,Valid,Stony,6000,Fell,"(38.400000, -84.250000)",1877,United States,NA
+Soko-Banja,23661,Valid,Stony,80000,Fell,"(43.666670, 21.866670)",1877,Serbia,EU
+La Charca,12394,Valid,Stony,399,Fell,"(20.666670, -101.283330)",1878,Mexico,NA
+Haraiya,11824,Valid,Stony,1000,Fell,"(26.800000, 82.533330)",1878,India,AS
+Mern,15489,Valid,Stony,4000,Fell,"(55.050000, 12.066670)",1878,Denmark,EU
+Dandapur,5511,Valid,Stony,5650,Fell,"(26.916670, 83.966670)",1878,India,AS
+Rakovka,22376,Valid,Stony,9000,Fell,"(52.983330, 37.033330)",1878,Russia,EU
+Tomatlan,24020,Valid,Stony,900,Fell,"(20.166670, -105.216670)",1879,Mexico,NA
+Gnadenfrei,10936,Valid,Stony,1750,Fell,"(50.666670, 16.766670)",1879,Poland,EU
+Itapicuru-Mirim,12056,Valid,Stony,2024,Fell,"(-3.400000, -44.333330)",1879,Brazil,SA
+La B姓casse,12392,Valid,Stony,2800,Fell,"(47.083330, 1.750000)",1879,France,EU
+Nogoya,16989,Valid,Stony,4000,Fell,"(-32.366670, -59.833330)",1879,Argentina,SA
+Kalumbi,12236,Valid,Stony,4500,Fell,"(17.833330, 73.983330)",1879,India,AS
+Tenham,23897,Valid,Stony,160000,Fell,"(-25.733330, 142.950000)",1879,Australia,OC
+Estherville,10059,Valid,Stony-Iron,320000,Fell,"(43.416670, -94.833330)",1879,United States,NA
+Aachen,1,Valid,Stony,21,Fell,"(50.775000, 6.083330)",1880,Germany,EU
+Chetrinahatti,5344,Valid,Stony,72,Fell,"(14.500000, 76.500000)",1880,India,AS
+Takenouchi,23789,Valid,Stony,720,Fell,"(35.383330, 134.900000)",1880,Japan,AS
+Ratyn,22398,Valid,Stony,910,Fell,"(52.200000, 17.983330)",1880,Poland,EU
+Wittekrantz,24323,Valid,Stony,2200,Fell,"(-32.500000, 23.000000)",1880,South Africa,AF
+Andhara,2294,Valid,Stony,2700,Fell,"(26.583330, 85.566670)",1880,India,AS
+Veramin,24162,Valid,Stony-Iron,54000,Fell,"(35.333330, 51.633330)",1880,Iran,AS
+Piquetberg,18832,Valid,Stony,37,Fell,"(-32.866670, 18.716670)",1881,South Africa,AF
+Middlesbrough,16632,Valid,Stony,1600,Fell,"(54.566670, -1.166670)",1881,United Kingdom,EU
+Pacula,18068,Valid,Stony,3400,Fell,"(21.050000, -99.300000)",1881,Mexico,NA
+Grossliebenthal,11208,Valid,Stony,8000,Fell,"(46.350000, 30.583330)",1881,Ukraine,EU
+Pirgunje,18834,Valid,Stony,842,Fell,"(25.800000, 88.450000)",1882,Bangladesh,AS
+Pavlovka,18177,Valid,Stony,2000,Fell,"(52.033330, 43.000000)",1882,Russia,EU
+Fukutomi,10836,Valid,Stony,11620,Fell,"(33.183330, 130.200000)",1882,Japan,AS
+Mocs,16709,Valid,Stony,300000,Fell,"(46.800000, 24.033330)",1882,Romania,EU
+St. Caprais-de-Quinsac,23081,Valid,Stony,360,Fell,"(44.750000, 0.050000)",1883,France,EU
+Ngawi,16966,Valid,Stony,1393,Fell,"(-7.450000, 111.416670)",1883,Indonesia,AS
+Alfianello,466,Valid,Stony,228000,Fell,"(45.266670, 10.150000)",1883,Italy,EU
+Pirthalla,18835,Valid,Stony,1161,Fell,"(29.583330, 76.000000)",1884,India,AS
+Tysnes Island,24094,Valid,Stony,19860,Fell,"(60.000000, 5.616670)",1884,Norway,EU
+Djati-Pengilon,7652,Valid,Stony,166000,Fell,"(-7.500000, 111.500000)",1884,Indonesia,AS
+Chandpur,5321,Valid,Stony,1100,Fell,"(27.283330, 79.050000)",1885,India,AS
+Mazapil,15453,Valid,Iron,4000,Fell,"(24.683330, -101.683330)",1885,Mexico,NA
+Barntrup,4948,Valid,Stony,17,Fell,"(52.000000, 9.100000)",1886,Germany,EU
+Bradford Woods,5128,Valid,Stony,762,Fell,"(40.500000, -80.083330)",1886,United States,NA
+Novo-Urei,17933,Valid,Stony,1900,Fell,"(54.816670, 46.000000)",1886,Russia,EU
+Assisi,2353,Valid,Stony,2000,Fell,"(43.033330, 12.550000)",1886,Italy,EU
+Nammianthal,16902,Valid,Stony,4500,Fell,"(12.283330, 79.200000)",1886,India,AS
+Kyushu,12390,Valid,Stony,45000,Fell,"(32.033330, 130.633330)",1886,Japan,AS
+Cabin Creek,5186,Valid,Iron,48500,Fell,"(35.500000, -93.500000)",1886,United States,NA
+De Cewsville,6621,Valid,Stony,340,Fell,"(43.000000, -80.000000)",1887,Canada,NA
+Lalitpur,12451,Valid,Stony,372,Fell,"(24.450000, 78.566670)",1887,India,AS
+Phu Hong,18809,Valid,Stony,500,Fell,"(11.250000, 108.583330)",1887,Vietnam,AS
+Bielokrynitschie,5043,Valid,Stony,1900,Fell,"(50.133330, 27.166670)",1887,Ukraine,EU
+Ochansk,17979,Valid,Stony,500000,Fell,"(57.783330, 55.266670)",1887,Russia,EU
+Ferguson,10088,Valid,Stony,220,Fell,"(36.100000, -81.416670)",1889,United States,NA
+Mighei,16634,Valid,Stony,8000,Fell,"(48.066670, 30.966670)",1889,Ukraine,EU
+Lundsg神rd,14755,Valid,Stony,11000,Fell,"(56.216670, 13.033330)",1889,Sweden,EU
+Ergheo,10044,Valid,Stony,20000,Fell,"(1.166670, 44.166670)",1889,Somalia,AF
+Jelica,12078,Valid,Stony,34000,Fell,"(43.833330, 20.441670)",1889,Serbia,EU
+Nawapali,16927,Valid,Stony,105,Fell,"(21.250000, 83.666670)",1890,India,AS
+Kakangari,12230,Valid,Stony,350,Fell,"(12.383330, 78.516670)",1890,India,AS
+Hassi-Jekna,11852,Valid,Iron,1250,Fell,"(28.950000, 0.816670)",1890,Algeria,AF
+St. Germain-du-Pinel,23087,Valid,Stony,4000,Fell,"(48.016670, -1.150000)",1890,France,EU
+Collescipoli,5403,Valid,Stony,5000,Fell,"(42.533330, 12.616670)",1890,Italy,EU
+Misshof,16703,Valid,Stony,5800,Fell,"(56.666670, 23.000000)",1890,Latvia,EU
+Farmington,10074,Valid,Stony,89400,Fell,"(39.750000, -97.033330)",1890,United States,NA
+Forest City,10119,Valid,Stony,152000,Fell,"(43.250000, -93.666670)",1890,United States,NA
+Jianshi,12087,Valid,Iron,600000,Fell,"(30.808330, 109.500000)",1890,China,AS
+Gu神a,11440,Valid,Stony,1915,Fell,"(43.766670, 20.233330)",1891,Serbia,EU
+Cross Roads,5476,Valid,Stony,167,Fell,"(35.633330, -78.133330)",1892,United States,NA
+Bansur,4936,Valid,Stony,15000,Fell,"(27.700000, 76.333330)",1892,India,AS
+Bath,4974,Valid,Stony,21000,Fell,"(45.416670, -98.316670)",1892,United States,NA
+Guare棲a,11439,Valid,Stony,39000,Fell,"(38.733330, -6.016670)",1892,Spain,EU
+Bherai,5039,Valid,Stony,100,Fell,"(20.833330, 71.466670)",1893,India,AS
+Pricetown,18888,Valid,Stony,900,Fell,"(39.116670, -83.850000)",1893,United States,NA
+Zabrodje,30380,Valid,Stony,3000,Fell,"(55.183330, 27.916670)",1893,Belarus,EU
+Beaver Creek,4986,Valid,Stony,14000,Fell,"(51.166670, -117.333330)",1893,Canada,NA
+Los Martinez,14708,Valid,Stony,25,Fell,"(38.000000, -0.833330)",1894,Spain,EU
+Savtschenskoje,23190,Valid,Stony,2500,Fell,"(47.216670, 29.866670)",1894,Ukraine,EU
+Bori,5111,Valid,Stony,8600,Fell,"(21.950000, 78.033330)",1894,India,AS
+Fisher,10107,Valid,Stony,17600,Fell,"(47.816670, -96.850000)",1894,United States,NA
+Bishunpur,5060,Valid,Stony,1039,Fell,"(25.383330, 82.600000)",1895,India,AS
+Rockhampton,22640,Valid,Stony,1641,Fell,"(-23.383330, 150.516670)",1895,Australia,OC
+Nagy-Borov姓,16893,Valid,Stony,6100,Fell,"(49.166670, 19.500000)",1895,Slovakia,EU
+Ambapur Nagla,2290,Valid,Stony,6400,Fell,"(27.666670, 78.250000)",1895,India,AS
+Atemajac,4884,Valid,Stony,94.2,Fell,"(20.066670, -103.666670)",1896,Mexico,NA
+Madrid,15382,Valid,Stony,400,Fell,"(40.416670, -3.716670)",1896,Spain,EU
+Ottawa,18046,Valid,Stony,840,Fell,"(38.600000, -95.216670)",1896,United States,NA
+Lesves,12772,Valid,Stony,2000,Fell,"(50.366670, 4.733330)",1896,Belgium,EU
+Kangra Valley,12246,Valid,Stony,400,Fell,"(32.083330, 76.300000)",1897,India,AS
+Nio,16982,Valid,Stony,467,Fell,"(34.200000, 131.566670)",1897,Japan,AS
+Meuselbach,16626,Valid,Stony,870,Fell,"(50.583330, 11.100000)",1897,Germany,EU
+Gambat,10851,Valid,Stony,6400,Fell,"(27.350000, 68.533330)",1897,Pakistan,AS
+Lancon,12456,Valid,Stony,7000,Fell,"(43.750000, 5.116670)",1897,France,EU
+Zavid,30396,Valid,Stony,95000,Fell,"(44.400000, 19.116670)",1897,Serbia,EU
+Mjelleim,16707,Valid,Stony,100.7,Fell,"(61.733330, 5.933330)",1898,Norway,EU
+Zaisho,30389,Valid,Stony-Iron,330,Fell,"(33.700000, 133.800000)",1898,Japan,AS
+Mariaville,15419,Valid,Iron,340,Fell,"(42.716670, -99.383330)",1898,United States,NA
+Andover,2295,Valid,Stony,3200,Fell,"(44.616670, -70.750000)",1898,United States,NA
+Quesa,22360,Valid,Iron,10750,Fell,"(39.000000, -0.666670)",1898,Spain,EU
+Peramiho,18792,Valid,Stony,165,Fell,"(-10.666670, 35.500000)",1899,Tanzania,AF
+Donga Kohrod,7707,Valid,Stony,230,Fell,"(21.866670, 82.450000)",1899,India,AS
+Rancho de la Presa,22390,Valid,Stony,300,Fell,"(19.866670, -100.816670)",1899,Mexico,NA
+Magnesia,15386,Valid,Iron,5000,Fell,"(37.866670, 27.516670)",1899,Turkey,AS
+Zomba,30412,Valid,Stony,7500,Fell,"(-15.183330, 35.283330)",1899,Malawi,AF
+Allegan,2276,Valid,Stony,32000,Fell,"(42.533330, -85.883330)",1899,United States,NA
+Bjurb神le,5064,Valid,Stony,330000,Fell,"(60.400000, 25.800000)",1899,Finland,EU
+Ovambo,18055,Valid,Stony,121.5,Fell,"(-18.000000, 16.000000)",1900,Namibia,AF
+Emmaville,10033,Valid,Stony,127,Fell,"(-29.466670, 151.616670)",1900,Australia,OC
+Forsbach,10163,Valid,Stony,240,Fell,"(50.950000, 7.316670)",1900,Germany,EU
+Leonovka,12765,Valid,Stony,700,Fell,"(52.266670, 32.850000)",1900,Ukraine,EU
+Felix,10081,Valid,Stony,3200,Fell,"(32.533330, -87.166670)",1900,United States,NA
+Ofeh姓rt神,17990,Valid,Stony,3750,Fell,"(47.883330, 22.033330)",1900,Hungary,EU
+Alexandrovsky,465,Valid,Stony,9251,Fell,"(50.950000, 31.816670)",1900,Ukraine,EU
+N'Goureyma,16968,Valid,Iron,37500,Fell,"(13.850000, -4.383330)",1900,Mali,AF
+Chervettaz,5341,Valid,Stony,705,Fell,"(46.550000, 6.816670)",1901,Switzerland,EU
+Sindhri,23611,Valid,Stony,8400,Fell,"(26.216670, 69.550000)",1901,Pakistan,AS
+Hvittis,11989,Valid,Stony,14000,Fell,"(61.183330, 22.683330)",1901,Finland,EU
+Phillips County (stone),18808,Valid,Stony,57900,Fell,"(40.000000, -99.250000)",1901,United States,NA
+Caratash,5265,Valid,Stony,8,Fell,"(38.500000, 27.000000)",1902,Turkey,AS
+Achiras,370,Valid,Stony,780,Fell,"(-33.166670, -64.950000)",1902,Argentina,SA
+Kamsagar,12241,Valid,Stony,1293,Fell,"(14.183330, 75.800000)",1902,India,AS
+Crumlin,5477,Valid,Stony,4255,Fell,"(54.616670, -6.216670)",1902,United Kingdom,EU
+Mount Browne,16766,Valid,Stony,11300,Fell,"(-29.800000, 141.700000)",1902,Australia,OC
+Marjalahti,15426,Valid,Stony-Iron,45000,Fell,"(61.500000, 30.500000)",1902,Russia,EU
+Bath Furnace,4975,Valid,Stony,86000,Fell,"(38.250000, -83.750000)",1902,United States,NA
+Menziswyl,15486,Valid,Stony,28.9,Fell,"(46.818670, 7.218170)",1903,Switzerland,EU
+Rich Mountain,22597,Valid,Stony,668,Fell,"(35.033330, -83.033330)",1903,United States,NA
+Tyumen,24095,Valid,Iron,750,Fell,"(57.166670, 65.533330)",1903,Russia,EU
+Valdinizza,24145,Valid,Stony,1004,Fell,"(44.866670, 9.150000)",1903,Italy,EU
+Dokachi,7658,Valid,Stony,3840,Fell,"(23.500000, 90.333330)",1903,Bangladesh,AS
+St. Mark's,23090,Valid,Stony,13780,Fell,"(-32.016670, 27.416670)",1903,South Africa,AF
+Uberaba,24096,Valid,Stony,40000,Fell,"(-19.816670, -48.783330)",1903,Brazil,SA
+Jackalsfontein,12065,Valid,Stony,48000,Fell,"(-32.500000, 21.900000)",1903,South Africa,AF
+Barnaul,4947,Valid,Stony,23.2,Fell,"(52.733330, 84.083330)",1904,Russia,EU
+Okano,18000,Valid,Iron,4742,Fell,"(35.083330, 135.200000)",1904,Japan,AS
+Gumoschnik,11450,Valid,Stony,5700,Fell,"(42.900000, 24.700000)",1904,Bulgaria,EU
+Shelburne,23529,Valid,Stony,18600,Fell,"(44.050000, -80.166670)",1904,Canada,NA
+Minnichhof,16700,Valid,Stony,550,Fell,"(47.700000, 16.600000)",1905,Hungary,EU
+Tomakovka,24019,Valid,Stony,600,Fell,"(47.850000, 34.766670)",1905,Ukraine,EU
+Bholghati,5041,Valid,Stony,2500,Fell,"(22.083330, 86.900000)",1905,India,AS
+Karkh,12262,Valid,Stony,22000,Fell,"(27.800000, 67.166670)",1905,Pakistan,AS
+Modoc (1905),16711,Valid,Stony,35000,Fell,"(38.500000, -101.100000)",1905,United States,NA
+Kirbyville,12321,Valid,Stony,97.7,Fell,"(30.750000, -95.950000)",1906,United States,NA
+Kijima (1906),12305,Valid,Stony,331,Fell,"(36.850000, 138.383330)",1906,Japan,AS
+Krutikha,12363,Valid,Stony,845.2,Fell,"(56.800000, 77.000000)",1906,Russia,EU
+Diep River,7642,Valid,Stony,1000,Fell,"(-33.750000, 18.566670)",1906,South Africa,AF
+Blackwell,5068,Valid,Stony,2381,Fell,"(36.833330, -97.333330)",1906,United States,NA
+Vishnupur,24187,Valid,Stony,2437,Fell,"(23.100000, 87.433330)",1906,India,AS
+Kulp,12373,Valid,Stony,3719,Fell,"(41.116670, 45.000000)",1906,Armenia,AS
+Domanitch,7661,Valid,Stony,438,Fell,"(40.000000, 29.000000)",1907,Turkey,AS
+Leighton,12760,Valid,Stony,877,Fell,"(34.583330, -87.500000)",1907,United States,NA
+Bali,4928,Valid,Stony,1000,Fell,"(5.383330, 16.383330)",1907,Central African Republic,AF
+Chainpur,5315,Valid,Stony,8200,Fell,"(25.850000, 83.483330)",1907,India,AS
+Sete Lagoas,23504,Valid,Stony,350,Fell,"(-19.466670, -44.216670)",1908,Brazil,SA
+Novy-Projekt,17935,Valid,Stony,1001,Fell,"(56.000000, 22.000000)",1908,Lithuania,EU
+Avce,4906,Valid,Iron,1230,Fell,"(46.000000, 13.500000)",1908,Slovenia,EU
+Kangean,12245,Valid,Stony,1630,Fell,"(-7.000000, 115.500000)",1908,Indonesia,AS
+Kagarlyk,12227,Valid,Stony,1900,Fell,"(49.866670, 30.833330)",1908,Ukraine,EU
+Mokoia,16713,Valid,Stony,4500,Fell,"(-39.633330, 174.400000)",1908,New Zealand,OC
+Blanket,5071,Valid,Stony,5100,Fell,"(31.833330, -98.833330)",1909,United States,NA
+Gifu,10914,Valid,Stony,14290,Fell,"(35.533330, 136.883330)",1909,Japan,AS
+Lakangaon,12435,Valid,Stony,212.5,Fell,"(21.866670, 76.033330)",1910,India,AS
+Paitan,18072,Valid,Stony,515,Fell,"(17.743330, 120.455830)",1910,Philippines,AS
+Grzempach,11429,Valid,Stony,690,Fell,"(52.866670, 16.633330)",1910,Poland,EU
+Hashima,11848,Valid,Stony,1110.6,Fell,"(35.294500, 136.700330)",1910,Japan,AS
+Baroti,4949,Valid,Stony,4500,Fell,"(31.616670, 76.800000)",1910,India,AS
+Hedjaz,11870,Valid,Stony,6100,Fell,"(27.333330, 35.666670)",1910,Saudi Arabia,AS
+Mirzapur,16701,Valid,Stony,8510,Fell,"(25.683330, 83.250000)",1910,India,AS
+Khohar,12298,Valid,Stony,9700,Fell,"(25.100000, 81.533330)",1910,India,AS
+Vigarano,24174,Valid,Stony,15000,Fell,"(44.850000, 11.400000)",1910,Italy,EU
+St. Michel,23093,Valid,Stony,17000,Fell,"(61.650000, 27.200000)",1910,Finland,EU
+Tonk,24026,Valid,Stony,7.7,Fell,"(24.650000, 76.866670)",1911,India,AS
+Erevan,10043,Valid,Stony,107.2,Fell,"(40.300000, 44.500000)",1911,Armenia,AS
+Kilbourn,12308,Valid,Stony,772,Fell,"(43.583330, -89.600000)",1911,United States,NA
+Nakhla,16898,Valid,Stony,10000,Fell,"(31.316670, 30.350000)",1911,Egypt,AF
+Demina,6649,Valid,Stony,16400,Fell,"(51.466670, 84.766670)",1911,Russia,EU
+Leeuwfontein,12756,Valid,Stony,460,Fell,"(-25.666670, 28.366670)",1912,South Africa,AF
+N'Kandhla,16983,Valid,Iron,17200,Fell,"(-28.566670, 30.700000)",1912,South Africa,AF
+Holbrook,11894,Valid,Stony,220000,Fell,"(34.900000, -110.183330)",1912,United States,NA
+Banswal,4937,Valid,Stony,14,Fell,"(30.400000, 78.200000)",1913,India,AS
+Kamiomi,12240,Valid,Stony,448,Fell,"(36.041670, 139.956670)",1913,Japan,AS
+Moore County,16736,Valid,Stony,1880,Fell,"(35.416670, -79.383330)",1913,United States,NA
+Sakauchi,23103,Valid,Iron,4180,Fell,"(35.666670, 136.300000)",1913,Japan,AS
+Nyir錐brany,17970,Valid,Stony,1100,Fell,"(47.550000, 22.025000)",1914,Hungary,EU
+Kisvars錐ny,12325,Valid,Stony,1550,Fell,"(48.166670, 22.308330)",1914,Hungary,EU
+Ryechki,22791,Valid,Stony,13000,Fell,"(51.133330, 34.500000)",1914,Ukraine,EU
+Saint-Sauveur,23101,Valid,Stony,14000,Fell,"(43.733330, 1.383330)",1914,France,EU
+Appley Bridge,2318,Valid,Stony,15000,Fell,"(53.583330, -2.716670)",1914,United Kingdom,EU
+Palinshih,18077,Valid,Iron,18000,Fell,"(43.483330, 118.616670)",1914,China,AS
+Kuttippuram,12384,Valid,Stony,45000,Fell,"(10.833330, 76.033330)",1914,India,AS
+Visuni,24189,Valid,Stony,594,Fell,"(25.450000, 70.000000)",1915,Pakistan,AS
+Rampurhat,22385,Valid,Stony,100,Fell,"(24.166670, 87.766670)",1916,India,AS
+Renqiu,22589,Valid,Stony,355,Fell,"(38.666670, 116.133330)",1916,China,AS
+Tomita,24023,Valid,Stony,600,Fell,"(34.500000, 133.750000)",1916,Japan,AS
+Baxter,4977,Valid,Stony,611,Fell,"(36.750000, -93.500000)",1916,United States,NA
+Ekh Khera,7777,Valid,Stony,840,Fell,"(28.266670, 78.783330)",1916,India,AS
+Sinai,23606,Valid,Stony,1455,Fell,"(30.900000, 32.483330)",1916,Egypt,AF
+Sultanpur,23741,Valid,Stony,1710.5,Fell,"(25.933330, 84.283330)",1916,India,AS
+Calivo,5200,Valid,Stony,2400,Fell,"(11.750000, 122.333330)",1916,Philippines,AS
+Treysa,24050,Valid,Iron,63000,Fell,"(50.916670, 9.183330)",1916,Germany,EU
+Boguslavka,5098,Valid,Iron,256000,Fell,"(44.550000, 131.633330)",1916,Russia,EU
+Silistra,55584,Valid,Stony,0.15,Fell,"(44.116670, 27.266670)",1917,Bulgaria,EU
+Sedik神y,23473,Valid,Stony,240,Fell,"(38.300000, 27.133330)",1917,Turkey,AS
+Ranchapur,22387,Valid,Stony,290.4,Fell,"(23.983330, 87.083330)",1917,India,AS
+Garhi Yasin,10860,Valid,Iron,380,Fell,"(27.883330, 68.533330)",1917,Pakistan,AS
+Independence,12028,Valid,Stony,880,Fell,"(39.083330, -94.400000)",1917,United States,NA
+Troup,24054,Valid,Stony,1020,Fell,"(32.166670, -95.100000)",1917,United States,NA
+Cranganore,5465,Valid,Stony,1460,Fell,"(10.200000, 76.266670)",1917,India,AS
+Strathmore,23729,Valid,Stony,13400,Fell,"(56.583330, -3.250000)",1917,United Kingdom,EU
+Nan Yang Pao,16903,Valid,Stony,52900,Fell,"(35.666670, 103.500000)",1917,China,AS
+Colby (Wisconsin),5395,Valid,Stony,104000,Fell,"(44.900000, -90.283330)",1917,United States,NA
+Witklip Farm,24321,Valid,Stony,22,Fell,"(-26.000000, 30.000000)",1918,South Africa,AF
+Tan姓,23801,Valid,Stony,905,Fell,"(35.433330, 136.233330)",1918,Japan,AS
+Norfork,16994,Valid,Iron,1050,Fell,"(36.216670, -92.266670)",1918,United States,NA
+Richardton,22599,Valid,Stony,90000,Fell,"(46.883330, -102.316670)",1918,United States,NA
+Glasatovo,10926,Valid,Stony,152000,Fell,"(57.350000, 37.616670)",1918,Russia,EU
+Saratov,23176,Valid,Stony,200000,Fell,"(52.550000, 46.550000)",1918,Russia,EU
+St. Mary's County,23091,Valid,Stony,24.3,Fell,"(38.166670, -76.383330)",1919,United States,NA
+Cacak,5187,Valid,Stony,212,Fell,"(43.838890, 20.333330)",1919,Serbia,EU
+Adhi Kot,379,Valid,Stony,4239,Fell,"(32.100000, 71.800000)",1919,Pakistan,AS
+Raoyang,22394,Valid,Stony,4910,Fell,"(38.200000, 115.700000)",1919,China,AS
+Rembang,22585,Valid,Iron,10000,Fell,"(-6.733330, 111.366670)",1919,Indonesia,AS
+Cumberland Falls,5496,Valid,Stony,17000,Fell,"(36.833330, -84.350000)",1919,United States,NA
+Bur-Gheluai,5169,Valid,Stony,120000,Fell,"(5.000000, 48.000000)",1919,Somalia,AF
+Simmern,23603,Valid,Stony,1222,Fell,"(49.983330, 7.533330)",1920,Germany,EU
+Atarra,4883,Valid,Stony,1280,Fell,"(25.254170, 80.625000)",1920,India,AS
+Aguila Blanca,417,Valid,Stony,1440,Fell,"(-30.866670, -64.550000)",1920,Argentina,SA
+Kushiike,12381,Valid,Stony,4460,Fell,"(37.050000, 138.383330)",1920,Japan,AS
+Merua,15492,Valid,Stony,71400,Fell,"(25.483330, 81.983330)",1920,India,AS
+Haripura,11829,Valid,Stony,315,Fell,"(28.383330, 75.783330)",1921,India,AS
+Beyrout,5035,Valid,Stony,1100,Fell,"(33.883330, 35.500000)",1921,Lebanon,AS
+Sharps,23525,Valid,Stony,1265,Fell,"(37.833330, -76.700000)",1921,United States,NA
+Samelia,23115,Valid,Iron,2462,Fell,"(25.666670, 74.866670)",1921,India,AS
+Shikarpur,23534,Valid,Stony,3679.7,Fell,"(25.850000, 87.577500)",1921,India,AS
+Pitts,18837,Valid,Iron,3760,Fell,"(31.950000, -83.516670)",1921,United States,NA
+Rose City,22766,Valid,Stony,10600,Fell,"(44.516670, -83.950000)",1921,United States,NA
+Tuan Tuc,24060,Valid,Stony,13100,Fell,"(9.666670, 105.666670)",1921,Vietnam,AS
+Patti,18118,Valid,Iron,12,Fell,"(38.133330, 14.966670)",1922,Italy,EU
+Baldwyn,4926,Valid,Stony,345,Fell,"(34.500000, -88.666670)",1922,United States,NA
+Nagai,16890,Valid,Stony,1810,Fell,"(38.121670, 140.061670)",1922,Japan,AS
+Hedeskoga,11869,Valid,Stony,3500,Fell,"(55.466670, 13.783330)",1922,Sweden,EU
+Florence,10111,Valid,Stony,3640,Fell,"(30.833330, -97.766670)",1922,United States,NA
+Tjerebon,24012,Valid,Stony,16500,Fell,"(-6.666670, 106.583330)",1922,Indonesia,AS
+Birni N'konni,5056,Valid,Stony,560,Fell,"(13.766670, 5.300000)",1923,Nigeria,AF
+Ashdon,2346,Valid,Stony,1300,Fell,"(52.050000, 0.300000)",1923,United Kingdom,EU
+Holetta,11895,Valid,Stony,1415,Fell,"(9.066670, 38.416670)",1923,Ethiopia,AF
+Serra de Mag姓,23502,Valid,Stony,1800,Fell,"(-8.383330, -36.766670)",1923,Brazil,SA
+Nakhon Pathom,16899,Valid,Stony,23200,Fell,"(13.733330, 100.083330)",1923,Thailand,AS
+Montferr姓,16727,Valid,Stony,149000,Fell,"(43.390560, 1.962500)",1923,France,EU
+Fenghsien-Ku,10086,Valid,Stony,82,Fell,"(34.600000, 116.750000)",1924,China,AS
+Unkoku,24123,Valid,Stony,1000,Fell,"(34.800000, 127.000000)",1924,South Korea,AS
+La Colina,12395,Valid,Stony,2000,Fell,"(-37.333330, -61.533330)",1924,Argentina,SA
+Success,23736,Valid,Stony,3500,Fell,"(36.483330, -90.666670)",1924,United States,NA
+Muraid,16874,Valid,Stony,4703,Fell,"(24.500000, 90.216670)",1924,Bangladesh,AS
+Santa Isabel,23165,Valid,Stony,5500,Fell,"(-33.900000, -61.700000)",1924,Argentina,SA
+Forksville,10123,Valid,Stony,6067,Fell,"(36.783330, -78.083330)",1924,United States,NA
+B姓r姓ba,5028,Valid,Stony,18000,Fell,"(11.650000, -3.650000)",1924,Burkina Faso,AF
+Johnstown,12198,Valid,Stony,40300,Fell,"(40.350000, -104.900000)",1924,United States,NA
+Olivenza,18013,Valid,Stony,150000,Fell,"(38.716670, -7.066670)",1924,Spain,EU
+Renca,22587,Valid,Stony,300,Fell,"(-32.750000, -65.283330)",1925,Argentina,SA
+Numakai,17960,Valid,Stony,363,Fell,"(43.333330, 141.866670)",1925,Japan,AS
+Ellemeet,10019,Valid,Stony,1470,Fell,"(51.750000, 4.000000)",1925,Netherlands,EU
+Chaves,5334,Valid,Stony,2945,Fell,"(41.933330, -7.466670)",1925,Spain,EU
+Queen's Mercy,22357,Valid,Stony,7000,Fell,"(-30.116670, 28.700000)",1925,Lesotho,AF
+Lanzenkirchen,12465,Valid,Stony,7000,Fell,"(47.750000, 16.233330)",1925,Austria,EU
+A随r,424,Valid,Stony,24000,Fell,"(19.083330, 8.383330)",1925,Niger,AF
+Ulmiz,24108,Valid,Stony,76.5,Fell,"(46.933330, 7.216670)",1926,Switzerland,EU
+Palmyra,18079,Valid,Stony,135,Fell,"(39.800000, -91.500000)",1926,United States,NA
+Jajh deh Kot Lalu,12067,Valid,Stony,973,Fell,"(26.750000, 68.416670)",1926,Pakistan,AS
+Urasaki,24129,Valid,Stony,1500,Fell,"(34.483330, 133.283330)",1926,Japan,AS
+Ojuelos Altos,17997,Valid,Stony,5850,Fell,"(38.183330, -5.400000)",1926,Spain,EU
+Lua,14721,Valid,Stony,9241,Fell,"(24.950000, 75.150000)",1926,India,AS
+Trysil,24057,Valid,Stony,640,Fell,"(61.300000, 12.300000)",1927,Norway,EU
+Sopot,23670,Valid,Stony,958,Fell,"(44.416670, 23.500000)",1927,Romania,EU
+Mamra Springs,15401,Valid,Stony,1000,Fell,"(45.216670, 62.083330)",1927,Kazakhstan,AS
+Oesede,17988,Valid,Stony,1400,Fell,"(52.283330, 8.050000)",1927,Germany,EU
+Tilden,23998,Valid,Stony,74800,Fell,"(38.200000, -89.683330)",1927,United States,NA
+Udei Station,24101,Valid,Iron,103000,Fell,"(7.950000, 8.083330)",1927,Nigeria,AF
+Yoshiki,30372,Valid,Stony,0.1,Fell,"(34.166670, 131.450000)",1928,Japan,AS
+Oter宣y,18042,Valid,Stony,246,Fell,"(58.883330, 9.400000)",1928,Norway,EU
+Narellan,16912,Valid,Stony,367.5,Fell,"(-34.050000, 150.688890)",1928,Australia,OC
+Isthilart,12053,Valid,Stony,3050,Fell,"(-31.183330, -57.950000)",1928,Argentina,SA
+Utzenstorf,24136,Valid,Stony,3422,Fell,"(47.116670, 7.550000)",1928,Switzerland,EU
+Naoki,16908,Valid,Stony,17000,Fell,"(19.250000, 77.000000)",1928,India,AS
+Rewari,22593,Valid,Stony,3332,Fell,"(28.200000, 76.666670)",1929,India,AS
+Bald Mountain,4925,Valid,Stony,3700,Fell,"(35.966670, -82.483330)",1929,United States,NA
+Padvarninkai,18069,Valid,Stony,3858,Fell,"(55.666670, 25.000000)",1929,Lithuania,EU
+Tauk,23887,Valid,Stony,6000,Fell,"(35.133330, 44.450000)",1929,Iraq,AS
+Khmelevka,12297,Valid,Stony,6109,Fell,"(56.750000, 75.333330)",1929,Russia,EU
+Beardsley,4984,Valid,Stony,16000,Fell,"(39.800000, -101.200000)",1929,United States,NA
+Olmedilla de Alarc神n,18015,Valid,Stony,40000,Fell,"(39.566670, -2.100000)",1929,Spain,EU
+Malampaka,15395,Valid,Stony,470,Fell,"(-3.133330, 33.516670)",1930,Tanzania,AF
+Gyokukei,11467,Valid,Stony,1320,Fell,"(35.000000, 127.500000)",1930,South Korea,AS
+Boriskino,5112,Valid,Stony,1342,Fell,"(54.233330, 52.483330)",1930,Russia,EU
+Aguada,398,Valid,Stony,1620,Fell,"(-31.600000, -65.233330)",1930,Argentina,SA
+Plantersville,18846,Valid,Stony,2085,Fell,"(30.700000, -96.116670)",1930,United States,NA
+Lillaverke,14650,Valid,Stony,6862,Fell,"(56.650000, 15.866670)",1930,Sweden,EU
+Moorleah,16738,Valid,Stony,8887.5,Fell,"(-40.975000, 145.600000)",1930,Australia,OC
+Oldenburg (1930),18009,Valid,Stony,16570,Fell,"(52.950000, 8.166670)",1930,Germany,EU
+Miller (Arkansas),16645,Valid,Stony,16700,Fell,"(35.400000, -92.050000)",1930,United States,NA
+Karoonda,12264,Valid,Stony,41730,Fell,"(-35.083330, 139.916670)",1930,Australia,OC
+Paragould,18101,Valid,Stony,408000,Fell,"(36.066670, -90.500000)",1930,United States,NA
+Konovo,12344,Valid,Stony,90,Fell,"(42.516670, 26.166670)",1931,Bulgaria,EU
+Pontlyfni,18865,Valid,Stony,157,Fell,"(53.036390, -4.319440)",1931,United Kingdom,EU
+Yukan,30377,Valid,Stony,4800,Fell,"(28.716670, 116.616670)",1931,China,AS
+Tatahouine,23884,Valid,Stony,12000,Fell,"(32.950000, 10.416670)",1931,Tunisia,AF
+Witsand Farm,24322,Valid,Stony,66,Fell,"(-28.666670, 18.916670)",1932,Namibia,AF
+Douar Mghila,7723,Valid,Stony,1161,Fell,"(32.333330, -6.300000)",1932,Morocco,AF
+Prambachkirchen,18883,Valid,Stony,2125,Fell,"(48.302500, 13.940830)",1932,Austria,EU
+Khor Temiki,12299,Valid,Stony,3200,Fell,"(16.000000, 36.000000)",1932,Sudan,AF
+Khanpur,12289,Valid,Stony,3698,Fell,"(25.550000, 83.116670)",1932,India,AS
+Kuznetzovo,12385,Valid,Stony,4047,Fell,"(55.200000, 75.333330)",1932,Russia,EU
+Archie,2329,Valid,Stony,5070,Fell,"(38.500000, -94.300000)",1932,United States,NA
+Gualeguaych神,11432,Valid,Stony,22000,Fell,"(-33.000000, -58.616670)",1932,Argentina,SA
+Malaga,15393,Valid,Stony,150,Fell,"(32.216670, -104.000000)",1933,United States,NA
+Dyarrl Island,7758,Valid,Stony-Iron,188,Fell,"(-3.000000, 151.000000)",1933,Papua New Guinea,OC
+Brient,5140,Valid,Stony,219,Fell,"(52.133330, 59.316670)",1933,Russia,EU
+Noyan-Bogdo,17936,Valid,Stony,250,Fell,"(42.916670, 102.466670)",1933,Mongolia,AS
+Athens,4885,Valid,Stony,265,Fell,"(34.750000, -87.000000)",1933,United States,NA
+Banten,4938,Valid,Stony,629,Fell,"(-6.333330, 106.000000)",1933,Indonesia,AS
+Po-wang Chen,18879,Valid,Stony,665,Fell,"(31.416670, 118.500000)",1933,China,AS
+Malvern,15400,Valid,Stony,807,Fell,"(-29.450000, 26.766670)",1933,South Africa,AF
+Pesyanoe,18799,Valid,Stony,3393,Fell,"(55.500000, 66.083330)",1933,Russia,EU
+Sioux County,23614,Valid,Stony,4100,Fell,"(42.583330, -103.666670)",1933,United States,NA
+Pasamonte,18110,Valid,Stony,5100,Fell,"(36.216670, -103.400000)",1933,United States,NA
+Repeev Khutor,22590,Valid,Iron,7000,Fell,"(48.600000, 45.666670)",1933,Russia,EU
+Phum Sambo,18811,Valid,Stony,7800,Fell,"(12.000000, 105.483330)",1933,Cambodia,AS
+Cherokee Springs,5340,Valid,Stony,8400,Fell,"(35.033330, -81.883330)",1933,United States,NA
+Chajari,5316,Valid,Stony,18300,Fell,"(-30.783330, -58.050000)",1933,Argentina,SA
+Zemaitkiemis,30399,Valid,Stony,44100,Fell,"(55.300000, 25.000000)",1933,Lithuania,EU
+Pervomaisky,18798,Valid,Stony,66000,Fell,"(56.633330, 39.433330)",1933,Russia,EU
+Rumuruti,22782,Valid,Stony,67,Fell,"(0.266670, 36.533330)",1934,Kenya,AF
+Tirupati,24009,Valid,Stony,230,Fell,"(13.633330, 79.416670)",1934,India,AS
+Capilla del Monte,5264,Valid,Stony,750,Fell,"(-30.883330, -64.550000)",1934,Argentina,SA
+Rio Negro,22611,Valid,Stony,1310,Fell,"(-26.100000, -49.800000)",1934,Brazil,SA
+Fayetteville,10079,Valid,Stony,2360,Fell,"(36.050000, -94.166670)",1934,United States,NA
+Hainaut,11472,Valid,Stony,9000,Fell,"(50.316670, 3.733330)",1934,France,EU
+Bahjoi,4922,Valid,Iron,10322,Fell,"(28.483330, 78.500000)",1934,India,AS
+Mangwendi,15405,Valid,Stony,22300,Fell,"(-17.650000, 31.600000)",1934,Zimbabwe,AF
+Farmville,10075,Valid,Stony,56000,Fell,"(35.550000, -77.533330)",1934,United States,NA
+Madiun,15380,Valid,Stony,400,Fell,"(-7.750000, 111.533330)",1935,Indonesia,AS
+Sungach,23745,Valid,Stony,637,Fell,"(44.866670, 133.166670)",1935,Russia,EU
+Nikolaevka,16976,Valid,Stony,3996,Fell,"(52.450000, 78.633330)",1935,Kazakhstan,AS
+Perpeti,18793,Valid,Stony,23474,Fell,"(23.325000, 91.000000)",1935,Bangladesh,AS
+Patwar,18171,Valid,Stony-Iron,37350,Fell,"(23.150000, 91.183330)",1935,Bangladesh,AS
+＝owicz,14718,Valid,Stony-Iron,59000,Fell,"(52.000000, 19.916670)",1935,Poland,EU
+Crescent,5470,Valid,Stony,78.4,Fell,"(35.950000, -97.583330)",1936,United States,NA
+Nassirah,16922,Valid,Stony,347,Fell,"(-21.733330, 165.900000)",1936,New Caledonia,OC
+Yurtuk,30378,Valid,Stony,1472,Fell,"(47.316670, 35.366670)",1936,Ukraine,EU
+Macibini,15372,Valid,Stony,1995,Fell,"(-28.833330, 31.950000)",1936,South Africa,AF
+Ichkala,11995,Valid,Stony,3973,Fell,"(58.200000, 82.933330)",1936,Russia,EU
+Rangala,22392,Valid,Stony,3224.5,Fell,"(25.383330, 72.016670)",1937,India,AS
+Kaptal-Aryk,12253,Valid,Stony,3500,Fell,"(42.450000, 73.366670)",1937,Kazakhstan,AS
+Tauti,23888,Valid,Stony,21000,Fell,"(46.716670, 23.500000)",1937,Romania,EU
+Kainsaz,12229,Valid,Stony,200000,Fell,"(55.433330, 53.250000)",1937,Russia,EU
+Putinga,18905,Valid,Stony,300000,Fell,"(-29.033330, -53.050000)",1937,Brazil,SA
+Bloomington,5076,Valid,Stony,67.8,Fell,"(40.480000, -89.004170)",1938,United States,NA
+Pavlodar (stone),18175,Valid,Stony,142.5,Fell,"(52.300000, 77.033330)",1938,Kazakhstan,AS
+Chicora,5349,Valid,Stony,303,Fell,"(40.933330, -79.733330)",1938,United States,NA
+Ivuna,12063,Valid,Stony,704.5,Fell,"(-8.416670, 32.433330)",1938,Tanzania,AF
+Kasamatsu,12266,Valid,Stony,710,Fell,"(35.366670, 136.766670)",1938,Japan,AS
+Lavrentievka,12743,Valid,Stony,800,Fell,"(52.450000, 51.566670)",1938,Russia,EU
+Benld,5021,Valid,Stony,1770.5,Fell,"(39.083330, -89.150000)",1938,United States,NA
+Pantar,18098,Valid,Stony,2130,Fell,"(8.066670, 124.283330)",1938,Philippines,AS
+Kukschin,12368,Valid,Stony,2250,Fell,"(51.150000, 31.700000)",1938,Ukraine,EU
+Aztec,4913,Valid,Stony,2830,Fell,"(36.800000, -108.000000)",1938,United States,NA
+Zhovtnevyi,30407,Valid,Stony,107000,Fell,"(47.583330, 37.250000)",1938,Ukraine,EU
+Santa Cruz,23164,Valid,Stony,60,Fell,"(24.166670, -99.333330)",1939,Mexico,NA
+Washougal,24218,Valid,Stony,225,Fell,"(45.583330, -122.350000)",1939,United States,NA
+Glanggang,10924,Valid,Stony,1303,Fell,"(-7.250000, 107.700000)",1939,Indonesia,AS
+Selakopi,23481,Valid,Stony,1590,Fell,"(-7.233330, 107.333330)",1939,Indonesia,AS
+Chervony Kut,5342,Valid,Stony,1700,Fell,"(50.833330, 34.000000)",1939,Ukraine,EU
+Ekeby,7776,Valid,Stony,3336,Fell,"(56.033330, 13.000000)",1939,Sweden,EU
+Kendleton,12275,Valid,Stony,6937,Fell,"(29.450000, -96.000000)",1939,United States,NA
+Andura,2298,Valid,Stony,17900,Fell,"(20.883330, 76.866670)",1939,India,AS
+Dresden (Ontario),7731,Valid,Stony,47700,Fell,"(42.520000, -82.260000)",1939,Canada,NA
+Erakot,10042,Valid,Stony,113,Fell,"(19.033330, 81.891670)",1940,India,AS
+Semarkona,23487,Valid,Stony,691,Fell,"(22.250000, 79.000000)",1940,India,AS
+Bhola,5040,Valid,Stony,1047,Fell,"(22.683330, 90.650000)",1940,Bangladesh,AS
+Kediri,12270,Valid,Stony,3300,Fell,"(-7.750000, 112.016670)",1940,Indonesia,AS
+Ramnagar,22384,Valid,Stony,3766,Fell,"(26.450000, 82.900000)",1940,India,AS
+Mafra,15383,Valid,Stony,600,Fell,"(-26.166670, -49.933330)",1941,Brazil,SA
+Black Moshannan Park,5065,Valid,Stony,705,Fell,"(40.916670, -78.083330)",1941,United States,NA
+Maridi,15421,Valid,Stony,3200,Fell,"(4.666670, 29.250000)",1941,South Sudan,AF
+Phuoc-Binh,18812,Valid,Stony,11000,Fell,"(15.716670, 108.100000)",1941,Vietnam,AS
+Pollen,18860,Valid,Stony,253.6,Fell,"(66.348330, 14.015000)",1942,Norway,EU
+Bununu,5165,Valid,Stony,357,Fell,"(10.016670, 9.583330)",1942,Nigeria,AF
+Parsa,18109,Valid,Stony,800,Fell,"(26.200000, 85.400000)",1942,India,AS
+Kamalpur,12238,Valid,Stony,2770,Fell,"(26.033330, 81.466670)",1942,India,AS
+Maziba,15454,Valid,Stony,4975,Fell,"(-1.216670, 30.000000)",1942,Uganda,AF
+Ankober,2304,Valid,Stony,6500,Fell,"(9.533330, 39.716670)",1942,Ethiopia,AF
+Kapoeta,12251,Valid,Stony,11355,Fell,"(4.700000, 33.633330)",1942,South Sudan,AF
+Forest Vale,10120,Valid,Stony,26000,Fell,"(-33.350000, 146.858330)",1942,Australia,OC
+Benoni,5023,Valid,Stony,3880,Fell,"(-26.166670, 28.416670)",1943,South Africa,AF
+Leedey,12755,Valid,Stony,51500,Fell,"(35.883330, -99.333330)",1943,United States,NA
+Mike,16636,Valid,Stony,224.2,Fell,"(46.233330, 17.533330)",1944,Hungary,EU
+Torrington,24032,Valid,Stony,259.1,Fell,"(42.066670, -104.166670)",1944,United States,NA
+Mtola,16820,Valid,Stony,1100,Fell,"(-11.500000, 33.500000)",1944,Malawi,AF
+Hallingeberg,11479,Valid,Stony,1456,Fell,"(57.816670, 16.233330)",1944,Sweden,EU
+Valdavur,24144,Valid,Stony,2799,Fell,"(11.983330, 79.750000)",1944,India,AS
+Atoka,4888,Valid,Stony,1384.2,Fell,"(34.316670, -96.150000)",1945,United States,NA
+Soroti,23671,Valid,Iron,2050,Fell,"(1.700000, 33.633330)",1945,Uganda,AF
+Meru,15491,Valid,Stony,6000,Fell,"(0.000000, 37.666670)",1945,Kenya,AF
+Fuhe,52412,Valid,Stony,23000,Fell,"(31.475560, 113.566940)",1945,China,AS
+Krasnyi Klyuch,12357,Valid,Stony,4000,Fell,"(54.333330, 56.083330)",1946,Russia,EU
+Bursa,5177,Valid,Stony,25000,Fell,"(40.200000, 29.233330)",1946,Turkey,AS
+Walters,24210,Valid,Stony,28100,Fell,"(34.333330, -98.300000)",1946,United States,NA
+Krymka,12364,Valid,Stony,50000,Fell,"(47.833330, 30.766670)",1946,Ukraine,EU
+Pe棲a Blanca Spring,18786,Valid,Stony,70000,Fell,"(30.125000, -103.116670)",1946,United States,NA
+Seldebourak,23483,Valid,Stony,150,Fell,"(22.833330, 4.983330)",1947,Algeria,AF
+Git-Git,10919,Valid,Stony,480,Fell,"(9.600000, 9.916670)",1947,Nigeria,AF
+L神nghalsen,12461,Valid,Stony,2300,Fell,"(58.850000, 16.733330)",1947,Sweden,EU
+Eagle,7760,Valid,Stony,10000,Fell,"(40.781670, -96.471670)",1947,United States,NA
+Reliegos,22584,Valid,Stony,17300,Fell,"(42.475000, -5.333330)",1947,Spain,EU
+Sikhote-Alin,23593,Valid,Iron,23000000,Fell,"(46.160000, 134.653330)",1947,Russia,EU
+Mardan,15414,Valid,Stony,4500,Fell,"(34.233330, 72.083330)",1948,Pakistan,AS
+Uzcudun,24140,Valid,Stony,20000,Fell,"(-44.116670, -66.150000)",1948,Argentina,SA
+Norton County,17922,Valid,Stony,1100000,Fell,"(39.683330, -99.866670)",1948,United States,NA
+Karewar,12260,Valid,Stony,180,Fell,"(12.900000, 7.150000)",1949,Nigeria,AF
+Alberta,454,Valid,Stony,625,Fell,"(2.000000, 22.666670)",1949,Democratic Republic of the Congo,AF
+Palolo Valley,18082,Valid,Stony,682,Fell,"(21.300000, -157.783330)",1949,United States,NA
+Vetluga,24169,Valid,Stony,750,Fell,"(57.800000, 45.800000)",1949,Russia,EU
+Akaba,426,Valid,Stony,779,Fell,"(29.516670, 35.050000)",1949,Jordan,AS
+Beddgelert,4993,Valid,Stony,794,Fell,"(53.016670, -4.100000)",1949,United Kingdom,EU
+Adzhi-Bogdo (stone),390,Valid,Stony,910,Fell,"(44.833330, 95.166670)",1949,Mongolia,AS
+Guidder,11443,Valid,Stony,968,Fell,"(9.916670, 13.983330)",1949,Cameroon,AF
+Mezel,16627,Valid,Stony,1300,Fell,"(45.766670, 3.250000)",1949,France,EU
+Benton,5026,Valid,Stony,2840,Fell,"(45.950000, -67.550000)",1949,Canada,NA
+Rupota,22783,Valid,Stony,6000,Fell,"(-10.266670, 38.766670)",1949,Tanzania,AF
+Kunashak,12377,Valid,Stony,200000,Fell,"(55.783330, 61.366670)",1949,Russia,EU
+Garland,10861,Valid,Stony,102,Fell,"(41.683330, -112.133330)",1950,United States,NA
+Thal,23908,Valid,Stony,342,Fell,"(33.400000, 70.600000)",1950,Pakistan,AS
+Trom宣y,24053,Valid,Stony,357.4,Fell,"(58.473330, 8.866670)",1950,Norway,EU
+Geidam,10870,Valid,Stony,725,Fell,"(12.916670, 11.916670)",1950,Nigeria,AF
+St. Louis,23089,Valid,Stony,1000,Fell,"(38.700000, -90.233330)",1950,United States,NA
+Madhipura,15379,Valid,Stony,1000,Fell,"(25.916670, 86.366670)",1950,India,AS
+Patrimonio,18116,Valid,Stony,2121,Fell,"(-19.533330, -48.566670)",1950,Brazil,SA
+Monte das Fortes,16725,Valid,Stony,4885,Fell,"(38.016670, -8.250000)",1950,Portugal,EU
+Arroyo Aguiar,2340,Valid,Stony,7450,Fell,"(-31.416670, -60.666670)",1950,Argentina,SA
+Vengerovo,24158,Valid,Stony,10800,Fell,"(56.133330, 77.266670)",1950,Russia,EU
+Murray,16882,Valid,Stony,12600,Fell,"(36.600000, -88.100000)",1950,United States,NA
+Yambo,30345,Valid,Stony,4,Fell,"(1.000000, 22.500000)",1951,Democratic Republic of the Congo,AF
+Aarhus,2,Valid,Stony,720,Fell,"(56.183330, 10.233330)",1951,Denmark,EU
+Kalaba,12232,Valid,Stony,950,Fell,"(-6.833330, 29.500000)",1951,Democratic Republic of the Congo,AF
+Dubrovnik,7736,Valid,Stony,1900,Fell,"(42.458330, 18.441670)",1951,Croatia,EU
+Manych,15409,Valid,Stony,3555,Fell,"(45.816670, 44.633330)",1951,Russia,EU
+Elenovka,7824,Valid,Stony,54640,Fell,"(47.833330, 37.666670)",1951,Ukraine,EU
+Galim (b),10849,Valid,Stony,28,Fell,"(7.050000, 12.433330)",1952,Cameroon,AF
+Galim (a),10848,Valid,Stony,36.1,Fell,"(7.050000, 12.433330)",1952,Cameroon,AF
+Zavetnoe,30395,Valid,Stony,800,Fell,"(47.133330, 43.900000)",1952,Russia,EU
+Min-Fan-Zhun,16697,Valid,Stony,5500,Fell,"(32.333330, 120.666670)",1952,China,AS
+Avanhandava,4905,Valid,Stony,9330,Fell,"(-21.460280, -49.950830)",1952,Brazil,SA
+Abee,6,Valid,Stony,107000,Fell,"(54.216670, -113.000000)",1952,Canada,NA
+Medanitos,15467,Valid,Stony,31,Fell,"(-27.250000, -67.500000)",1953,Argentina,SA
+Peckelsheim,18181,Valid,Stony,117.8,Fell,"(51.666670, 9.250000)",1953,Germany,EU
+Molteno,16717,Valid,Stony,150,Fell,"(-31.250000, 26.466670)",1953,South Africa,AF
+H神kmark,11893,Valid,Stony,305.5,Fell,"(64.433330, 21.200000)",1954,Sweden,EU
+Arbol Solo,2325,Valid,Stony,810,Fell,"(-33.000000, -66.000000)",1954,Argentina,SA
+Ishinga,12049,Valid,Stony,1300,Fell,"(-8.933330, 33.800000)",1954,Tanzania,AF
+Sylacauga,23773,Valid,Stony,5560,Fell,"(33.188360, -86.294500)",1954,United States,NA
+Nikolskoe,16977,Valid,Stony,6000,Fell,"(56.116670, 37.333330)",1954,Russia,EU
+Yangchiang,30348,Valid,Stony,20000,Fell,"(21.833330, 111.833330)",1954,China,AS
+Lahrauli,12433,Valid,Stony,900,Fell,"(26.783330, 82.716670)",1955,India,AS
+Messina,15495,Valid,Stony,2405,Fell,"(38.183330, 15.566670)",1955,Italy,EU
+Zvonkov,30415,Valid,Stony,2568,Fell,"(50.200000, 30.250000)",1955,Ukraine,EU
+Karloowala,12263,Valid,Stony,2950,Fell,"(31.583330, 71.600000)",1955,Pakistan,AS
+Centerville,5307,Valid,Stony,45.6,Fell,"(43.200000, -96.916670)",1956,United States,NA
+Hotse,11913,Valid,Stony,180,Fell,"(35.666670, 115.500000)",1956,China,AS
+San Pedro de Quiles,23130,Valid,Stony,282,Fell,"(-31.016670, -71.400000)",1956,Chile,SA
+Breitscheid,5134,Valid,Stony,1500,Fell,"(50.666940, 8.183610)",1956,Germany,EU
+Sinnai,23613,Valid,Stony,2000,Fell,"(39.300000, 9.200000)",1956,Italy,EU
+Idutywa,12000,Valid,Stony,3457,Fell,"(-32.100000, 28.333330)",1956,South Africa,AF
+Nadiabondi,16889,Valid,Stony,8165,Fell,"(12.000000, 1.000000)",1956,Burkina Faso,AF
+Paranaiba,18103,Valid,Stony,100000,Fell,"(-19.133330, -51.666670)",1956,Brazil,SA
+Al Rais,446,Valid,Stony,160,Fell,"(24.416670, 39.516670)",1957,Saudi Arabia,AS
+Ufana,24106,Valid,Stony,189.2,Fell,"(-4.266670, 35.350000)",1957,Tanzania,AF
+Distrito Quebracho,7649,Valid,Stony,400,Fell,"(-31.883330, -60.466670)",1957,Argentina,SA
+Essebi,10055,Valid,Stony,500,Fell,"(2.883330, 30.833330)",1957,Democratic Republic of the Congo,AF
+Ibitira,11993,Valid,Stony,2500,Fell,"(-20.000000, -45.000000)",1957,Brazil,SA
+Raco,22368,Valid,Stony,5000,Fell,"(-26.666670, -65.450000)",1957,Argentina,SA
+Okabe,17998,Valid,Stony,194,Fell,"(36.183330, 139.216670)",1958,Japan,AS
+Ramsdorf,22386,Valid,Stony,4682,Fell,"(51.883330, 6.933330)",1958,Germany,EU
+St.-Chinian,23097,Valid,Stony,134.3,Fell,"(43.433330, 2.950000)",1959,France,EU
+Kandahar (Afghanistan),12243,Valid,Stony,299,Fell,"(31.600000, 65.783330)",1959,Afghanistan,AS
+Akwanga,432,Valid,Stony,3000,Fell,"(8.916670, 8.433330)",1959,Nigeria,AF
+Hamlet,11485,Valid,Stony,3710,Fell,"(41.383330, -86.600000)",1959,United States,NA
+Yardymly,30352,Valid,Iron,150200,Fell,"(38.933330, 48.250000)",1959,Azerbaijan,AS
+Soheria,23660,Valid,Stony,72.9,Fell,"(27.133330, 84.066670)",1960,India,AS
+Woolgorong,24334,Valid,Stony,36000,Fell,"(-27.750000, 115.833330)",1960,Australia,OC
+Bruderheim,5156,Valid,Stony,303000,Fell,"(53.900000, -112.883330)",1960,Canada,NA
+Millbillillie,16643,Valid,Stony,330000,Fell,"(-26.450000, 120.366670)",1960,Australia,OC
+Ras Tanura,22395,Valid,Stony,6.1,Fell,"(26.666670, 50.150000)",1961,Saudi Arabia,AS
+Bells,5005,Valid,Stony,375,Fell,"(33.600000, -96.466670)",1961,United States,NA
+Kulak,12369,Valid,Stony,453.6,Fell,"(30.731110, 66.802220)",1961,Pakistan,AS
+Ehole,7774,Valid,Stony,2400,Fell,"(-17.300000, 15.833330)",1961,Angola,AF
+Djermaia,7656,Valid,Stony,3950,Fell,"(12.733330, 15.050000)",1961,Chad,AF
+Harleton,11830,Valid,Stony,8360,Fell,"(32.675000, -94.511670)",1961,United States,NA
+Kayakent,12268,Valid,Iron,85000,Fell,"(39.263330, 31.780000)",1961,Turkey,AS
+Kiel,12301,Valid,Stony,737.6,Fell,"(54.400000, 10.150000)",1962,Germany,EU
+Dosso,7722,Valid,Stony,1250,Fell,"(13.050000, 3.166670)",1962,Niger,AF
+Ste. Marguerite,23099,Valid,Stony,4960,Fell,"(50.766670, 3.000000)",1962,Belgium,EU
+Bogou,5097,Valid,Iron,8800,Fell,"(12.500000, 0.700000)",1962,Burkina Faso,AF
+Zagami,30386,Valid,Stony,18000,Fell,"(11.733330, 7.083330)",1962,Nigeria,AF
+Desuri,6693,Valid,Stony,25400,Fell,"(25.733330, 73.616670)",1962,India,AS
+Hoxie,11915,Valid,Stony,266.1,Fell,"(39.350000, -100.450000)",1963,United States,NA
+Zaisan,30388,Valid,Stony,463,Fell,"(47.500000, 83.000000)",1963,Kazakhstan,AS
+Karatu,12258,Valid,Stony,2220,Fell,"(-3.500000, 35.583330)",1963,Tanzania,AF
+Inner Mongolia,12037,Valid,Stony,3000,Fell,"(41.000000, 112.000000)",1963,China,AS
+Ohuma,17996,Valid,Stony,7700,Fell,"(6.750000, 8.500000)",1963,Nigeria,AF
+Peace River,18180,Valid,Stony,45760,Fell,"(56.133330, -117.933330)",1963,Canada,NA
+Wolamo,24324,Valid,Stony,166.4,Fell,"(9.000000, 39.000000)",1964,Ethiopia,AF
+Jiange,12086,Valid,Stony,222,Fell,"(31.916670, 104.916670)",1964,China,AS
+Muzaffarpur,16885,Valid,Iron,1245,Fell,"(26.133330, 85.533330)",1964,India,AS
+神anakkale,5250,Valid,Stony,4000,Fell,"(39.800000, 26.600000)",1964,Turkey,AS
+Chernyi Bor,5339,Valid,Stony,6000,Fell,"(53.700000, 30.100000)",1964,Belarus,EU
+Granes,10956,Valid,Stony,9000,Fell,"(42.900000, 2.250000)",1964,France,EU
+Revelstoke,22592,Valid,Stony,1,Fell,"(51.333330, -118.950000)",1965,Canada,NA
+Taonan,23873,Valid,Stony,3850,Fell,"(45.400000, 122.900000)",1965,China,AS
+Conquista,5418,Valid,Stony,20350,Fell,"(-19.850000, -47.550000)",1965,Brazil,SA
+Barwell,4954,Valid,Stony,44000,Fell,"(52.565280, -1.339720)",1965,United Kingdom,EU
+Umm Ruaba,24118,Valid,Stony,1700,Fell,"(13.466670, 31.216670)",1966,Sudan,AF
+Pavel,18173,Valid,Stony,2968,Fell,"(43.466670, 25.516670)",1966,Bulgaria,EU
+Seoni,23500,Valid,Stony,20000,Fell,"(21.683890, 79.500830)",1966,India,AS
+Saint-S姓verin,23102,Valid,Stony,271000,Fell,"(45.300000, 0.233330)",1966,France,EU
+Vilna,24183,Valid,Stony,0.1,Fell,"(54.225000, -111.691670)",1967,Canada,NA
+Kingai,12316,Valid,Stony,67.4,Fell,"(11.633330, 24.683330)",1967,Sudan,AF
+Parambu,18102,Valid,Stony,2000,Fell,"(-6.233330, -40.700000)",1967,Brazil,SA
+Tathlith,23885,Valid,Stony,2500,Fell,"(19.383330, 43.733330)",1967,Saudi Arabia,AS
+Tugalin-Bulen,24062,Valid,Stony,10000,Fell,"(45.466670, 105.383330)",1967,Mongolia,AS
+Wiluna,24281,Valid,Stony,150000,Fell,"(-26.592780, 120.328330)",1967,Australia,OC
+Piancaldoli,18813,Valid,Stony,13.1,Fell,"(44.244170, 11.502220)",1968,Italy,EU
+Awere,4910,Valid,Stony,134,Fell,"(2.716670, 32.833330)",1968,Uganda,AF
+Schenectady,23458,Valid,Stony,283.3,Fell,"(42.860830, -73.950280)",1968,United States,NA
+San Pedro Jacuaro,34063,Valid,Stony,460,Fell,"(19.766670, -100.650000)",1968,Mexico,NA
+Juromenha,12213,Valid,Iron,25250,Fell,"(38.740280, -7.270000)",1968,Portugal,EU
+Andreevka,2296,Valid,Stony,600,Fell,"(48.700000, 37.500000)",1969,Ukraine,EU
+Patora,18112,Valid,Stony,4375,Fell,"(20.936940, 82.050000)",1969,India,AS
+Bovedy,5121,Valid,Stony,5460,Fell,"(54.566670, -6.333330)",1969,United Kingdom,EU
+Murchison,16875,Valid,Stony,100000,Fell,"(-36.616670, 145.200000)",1969,Australia,OC
+Allende,2278,Valid,Stony,2000000,Fell,"(26.966670, -105.316670)",1969,Mexico,NA
+Kiffa,12303,Valid,Stony,1500,Fell,"(16.583330, -11.333330)",1970,Mauritania,AF
+Malakal,15394,Valid,Stony,2000,Fell,"(9.500000, 31.750000)",1970,South Sudan,AF
+Nejo,16941,Valid,Stony,2450,Fell,"(9.500000, 35.333330)",1970,Ethiopia,AF
+Tillaberi,23999,Valid,Stony,3000,Fell,"(14.250000, 1.533330)",1970,Niger,AF
+Dwaleni,7755,Valid,Stony,3230,Fell,"(-27.200000, 31.316670)",1970,Swaziland,AF
+Ucera,24097,Valid,Stony,4590,Fell,"(11.050000, -69.850000)",1970,Venezuela,SA
+Dongtai,7708,Valid,Stony,5500,Fell,"(32.916670, 120.783330)",1970,China,AS
+Lost City,14711,Valid,Stony,17000,Fell,"(36.008330, -95.150000)",1970,United States,NA
+Noventa Vicentina,17930,Valid,Stony,177,Fell,"(45.291670, 11.527220)",1971,Italy,EU
+Wethersfield (1971),24250,Valid,Stony,350,Fell,"(41.700000, -72.650000)",1971,United States,NA
+Haver神,11859,Valid,Stony,1544,Fell,"(60.245560, 22.061940)",1971,Finland,EU
+Anlong,2305,Valid,Stony,2500,Fell,"(25.150000, 105.183330)",1971,China,AS
+Shuangyang,23582,Valid,Stony,3900,Fell,"(43.500000, 125.666670)",1971,China,AS
+Kabo,12220,Valid,Stony,13400,Fell,"(11.850000, 8.216670)",1971,Nigeria,AF
+Guibga,11442,Valid,Stony,288,Fell,"(13.500000, -0.683330)",1972,Burkina Faso,AF
+Ipiranga,12043,Valid,Stony,7000,Fell,"(-25.500000, -54.500000)",1972,Brazil,SA
+Valera,24149,Valid,Stony,50000,Fell,"(9.316670, -70.628330)",1972,Venezuela,SA
+San Juan Capistrano,23128,Valid,Stony,56,Fell,"(33.484720, -117.662500)",1973,United States,NA
+Canon City,5253,Valid,Stony,1400,Fell,"(38.470280, -105.241390)",1973,United States,NA
+Lichtenberg,14646,Valid,Stony,4000,Fell,"(-26.150000, 26.183330)",1973,South Africa,AF
+Stratford,23728,Valid,Stony,50,Fell,"(41.200000, -73.133330)",1974,United States,NA
+Jolomba,12199,Valid,Stony,483,Fell,"(-11.850000, 15.833330)",1974,Angola,AF
+Aioun el Atrouss,423,Valid,Stony,1000,Fell,"(16.398060, -9.570280)",1974,Mauritania,AF
+Naragh,16909,Valid,Stony,2700,Fell,"(33.750000, 51.500000)",1974,Iran,AS
+Gorlovka,10949,Valid,Stony,3618,Fell,"(48.283330, 38.083330)",1974,Ukraine,EU
+Mayo Belwa,15451,Valid,Stony,4850,Fell,"(8.966670, 12.083330)",1974,Nigeria,AF
+Enshi,10038,Valid,Stony,8000,Fell,"(30.300000, 109.500000)",1974,China,AS
+Ijopega,12004,Valid,Stony,7330,Fell,"(-6.033330, 145.366670)",1975,Papua New Guinea,OC
+Tambakwatu,23795,Valid,Stony,10500,Fell,"(-7.750000, 112.766670)",1975,Indonesia,AS
+Ningbo,16980,Valid,Iron,14250,Fell,"(29.866670, 121.483330)",1975,China,AS
+Tuxtuac,24086,Valid,Stony,30000,Fell,"(21.666670, -103.366670)",1975,Mexico,NA
+Grefsheim,11196,Valid,Stony,45.5,Fell,"(60.666670, 11.000000)",1976,Norway,EU
+Ruhobobo,22780,Valid,Stony,465.5,Fell,"(-1.450000, 29.833330)",1976,Rwanda,AF
+Sheyang,23531,Valid,Stony,605,Fell,"(33.650000, 120.066670)",1976,China,AS
+Dowa,7725,Valid,Stony,642,Fell,"(-13.666670, 33.916670)",1976,Malawi,AF
+Junan,12210,Valid,Stony,950,Fell,"(35.200000, 118.800000)",1976,China,AS
+Acapulco,10,Valid,Stony,1914,Fell,"(16.883330, -99.900000)",1976,Mexico,NA
+Qingzhen,18908,Valid,Stony,2600,Fell,"(26.533330, 106.466670)",1976,China,AS
+Zhuanghe,30408,Valid,Stony,2900,Fell,"(39.666670, 122.983330)",1976,China,AS
+Dhajala,6698,Valid,Stony,45000,Fell,"(22.377780, 71.427220)",1976,India,AS
+Jilin,12171,Valid,Stony,4000000,Fell,"(44.050000, 126.166670)",1976,China,AS
+Kutais,12383,Valid,Stony,23,Fell,"(44.516670, 39.300000)",1977,Russia,EU
+Iguaracu,12003,Valid,Stony,1200,Fell,"(-23.200000, -51.833330)",1977,Brazil,SA
+Louisville,14716,Valid,Stony,1300,Fell,"(38.250000, -85.750000)",1977,United States,NA
+Changde,5322,Valid,Stony,1810,Fell,"(29.083330, 111.750000)",1977,China,AS
+Fuyang,10840,Valid,Stony,2500,Fell,"(32.900000, 115.900000)",1977,China,AS
+Innisfree,12039,Valid,Stony,4576,Fell,"(53.415000, -111.337500)",1977,Canada,NA
+Alta'ameem,2284,Valid,Stony,6000,Fell,"(35.273330, 44.215560)",1977,Iraq,AS
+Bo Xian,5090,Valid,Stony,7500,Fell,"(33.833330, 115.833330)",1977,China,AS
+El Paso de Aguila,45977,Valid,Stony,17226,Fell,"(25.370000, -97.370000)",1977,Mexico,NA
+Xingyang,24346,Valid,Stony,75500,Fell,"(32.333330, 114.316670)",1977,China,AS
+Lishui,14659,Valid,Stony,498,Fell,"(31.633330, 118.983330)",1978,China,AS
+Chitenay,5357,Valid,Stony,4000,Fell,"(47.470830, 0.976670)",1978,France,EU
+Nuevo Mercurio,17938,Valid,Stony,50000,Fell,"(24.300000, -102.133330)",1978,Mexico,NA
+Cilimus,5364,Valid,Stony,1600,Fell,"(-6.950000, 108.100000)",1979,Indonesia,AS
+Jartai,12074,Valid,Stony,20500,Fell,"(39.700000, 105.800000)",1979,China,AS
+Mianchi,16631,Valid,Stony,1100,Fell,"(34.800000, 111.700000)",1980,China,AS
+Guangrao,11437,Valid,Stony,1900,Fell,"(37.100000, 118.400000)",1980,China,AS
+Richland Springs,22602,Valid,Stony,1900,Fell,"(31.250000, -99.033330)",1980,United States,NA
+Kaidun,12228,Valid,Stony,2000,Fell,"(15.000000, 48.300000)",1980,Yemen,AS
+Lunan,14754,Valid,Stony,2520,Fell,"(24.800000, 103.300000)",1980,China,AS
+Xi Ujimgin,24345,Valid,Stony,5900,Fell,"(44.666670, 117.500000)",1980,China,AS
+Salem,23107,Valid,Stony,61.4,Fell,"(44.979170, -122.969440)",1981,United States,NA
+Chiang Khan,5345,Valid,Stony,367,Fell,"(17.900000, 101.633330)",1981,Laos,AS
+Dahmani,5504,Valid,Stony,18000,Fell,"(35.616670, 8.833330)",1981,Tunisia,AF
+Gursum,11465,Valid,Stony,34650,Fell,"(9.366670, 42.416670)",1981,Ethiopia,AF
+Akyumak,433,Valid,Iron,50000,Fell,"(39.916670, 42.816670)",1981,Turkey,AS
+Machinga,15371,Valid,Stony,93200,Fell,"(-15.212220, 35.242220)",1981,Malawi,AF
+Omolon,18019,Valid,Stony-Iron,250000,Fell,"(64.020000, 161.808330)",1981,Russia,EU
+Qidong,18907,Valid,Stony,1275,Fell,"(32.083330, 121.500000)",1982,China,AS
+Gujargaon,11448,Valid,Stony,2449,Fell,"(22.983330, 76.050000)",1982,India,AS
+Wethersfield (1982),24251,Valid,Stony,2756,Fell,"(41.710560, -72.673610)",1982,United States,NA
+Maryville,15436,Valid,Stony,1443,Fell,"(35.800000, -84.100000)",1983,United States,NA
+Ningqiang,16981,Valid,Stony,4610,Fell,"(32.925000, 105.906670)",1983,China,AS
+Rahimyar Khan,31302,Valid,Stony,67225,Fell,"(28.225000, 70.200000)",1983,Pakistan,AS
+Kidairat,12300,Valid,Stony,100000,Fell,"(14.000000, 28.000000)",1983,Sudan,AF
+Tomiya,24024,Valid,Stony,27.5,Fell,"(38.366670, 140.865560)",1984,Japan,AS
+Aomori,2313,Valid,Stony,320,Fell,"(40.810560, 140.785560)",1984,Japan,AS
+Binningup,5051,Valid,Stony,488.1,Fell,"(-33.156390, 115.676390)",1984,Australia,OC
+Nantong,16907,Valid,Stony,529,Fell,"(32.116670, 121.800000)",1984,China,AS
+Claxton,5374,Valid,Stony,1455,Fell,"(32.102500, -81.872780)",1984,United States,NA
+Gashua,44882,Valid,Stony,4162,Fell,"(12.850000, 11.033330)",1984,Nigeria,AF
+Zaoyang,30391,Valid,Stony,14250,Fell,"(32.300000, 112.750000)",1984,China,AS
+Jumapalo,12209,Valid,Stony,32490,Fell,"(-7.716670, 111.200000)",1984,Indonesia,AS
+Zhaodong,30404,Valid,Stony,42000,Fell,"(45.816670, 125.916670)",1984,China,AS
+Gujba,11449,Valid,Stony,100000,Fell,"(11.491670, 11.658330)",1984,Nigeria,AF
+Salzwedel,23114,Valid,Stony,43,Fell,"(52.750000, 11.050000)",1985,Germany,EU
+La Criolla,12396,Valid,Stony,45000,Fell,"(-31.233330, -58.166670)",1985,Argentina,SA
+Undulung,24121,Valid,Stony,113.4,Fell,"(66.138890, 124.766670)",1986,Russia,EU
+Sayama,23192,Valid,Stony,430,Fell,"(35.866670, 139.400000)",1986,Japan,AS
+Oued el Hadjar,18050,Valid,Stony,1215.5,Fell,"(30.180000, -6.577170)",1986,Morocco,AF
+Lanxi,12464,Valid,Stony,1282,Fell,"(46.241670, 126.196110)",1986,China,AS
+Tianzhang,23984,Valid,Stony,2232,Fell,"(32.946670, 118.990000)",1986,China,AS
+Raghunathpura,22371,Valid,Iron,10200,Fell,"(27.725280, 76.465000)",1986,India,AS
+Kokubunji,12342,Valid,Stony,11510,Fell,"(34.300000, 133.950000)",1986,Japan,AS
+Wuan,24340,Valid,Stony,50000,Fell,"(36.750000, 114.250000)",1986,China,AS
+Suizhou,23738,Valid,Stony,260000,Fell,"(31.616670, 113.466670)",1986,China,AS
+Laochenzhen,12466,Valid,Stony,14250,Fell,"(33.133330, 115.166670)",1987,China,AS
+Torino,24029,Valid,Stony,977,Fell,"(45.066670, 7.666670)",1988,Italy,EU
+Ceniceros,5306,Valid,Stony,1025,Fell,"(26.466670, -105.233330)",1988,Mexico,NA
+Trebbin,24042,Valid,Stony,1250,Fell,"(52.216670, 13.166670)",1988,Germany,EU
+Palca de Aparzo,18074,Valid,Stony,1430,Fell,"(-23.116670, -65.100000)",1988,Argentina,SA
+Chela,5338,Valid,Stony,2936,Fell,"(-3.666670, 32.500000)",1988,Tanzania,AF
+Chisenga,5355,Valid,Iron,3920,Fell,"(-10.059440, 33.395000)",1988,Malawi,AF
+Sixiangkou,23619,Valid,Stony,630,Fell,"(32.433330, 119.866670)",1989,China,AS
+Uchkuduk,24098,Valid,Stony,1000,Fell,"(41.766670, 62.516670)",1989,Uzbekistan,AS
+Bawku,4976,Valid,Stony,1557,Fell,"(11.083330, -0.183330)",1989,Ghana,AF
+Sfax,23512,Valid,Stony,7000,Fell,"(34.750000, 10.716670)",1989,Tunisia,AF
+El Idrissia,7807,Valid,Stony,10000,Fell,"(34.416670, 3.250000)",1989,Algeria,AF
+Sivas,23617,Valid,Stony,40000,Fell,"(39.824670, 36.135830)",1989,Turkey,AS
+Magombedze,15387,Valid,Stony,666.6,Fell,"(-19.483330, 31.650000)",1990,Zimbabwe,AF
+Burnwell,5175,Valid,Stony,1504,Fell,"(37.621940, -82.237220)",1990,United States,NA
+Yanzhuang,30350,Valid,Stony,3500,Fell,"(24.566670, 114.166670)",1990,China,AS
+Quija,22361,Valid,Stony,17450,Fell,"(44.616670, 126.133330)",1990,China,AS
+Sterlitamak,23724,Valid,Iron,325000,Fell,"(53.666670, 55.983330)",1990,Russia,EU
+Noblesville,16985,Valid,Stony,483.7,Fell,"(40.085280, -86.055000)",1991,United States,NA
+Glatton,10930,Valid,Stony,767,Fell,"(52.459720, -0.300000)",1991,United Kingdom,EU
+Tahara,23784,Valid,Stony,1000,Fell,"(34.720000, 137.305000)",1991,Japan,AS
+Campos Sales,5249,Valid,Stony,23680,Fell,"(-7.033330, -40.166670)",1991,Brazil,SA
+Mount Tazerzait,16804,Valid,Stony,110000,Fell,"(18.700000, 4.800000)",1991,Niger,AF
+Mihonoseki,16635,Valid,Stony,6380,Fell,"(35.568330, 133.220000)",1992,Japan,AS
+Peekskill,18782,Valid,Stony,12570,Fell,"(41.283330, -73.916670)",1992,United States,NA
+Mbale,15455,Valid,Stony,150000,Fell,"(1.066670, 34.166670)",1992,Uganda,AF
+Senboku,23496,Valid,Stony,866,Fell,"(39.438330, 140.511670)",1993,Japan,AS
+El Tigre,7819,Valid,Stony,5000,Fell,"(19.967220, -103.051670)",1993,Mexico,NA
+Ban Rong Du,4934,Valid,Iron,16700,Fell,"(16.666670, 101.183330)",1993,Thailand,AS
+Songyuan,23668,Valid,Stony,36900,Fell,"(45.250000, 125.000000)",1993,China,AS
+Coleman,5401,Valid,Stony,469,Fell,"(43.761110, -84.507780)",1994,United States,NA
+Devri-Khera,6696,Valid,Stony,1140,Fell,"(24.225000, 76.525000)",1994,India,AS
+New Halfa,16954,Valid,Stony,12000,Fell,"(15.366670, 35.683330)",1994,Sudan,AF
+Baszk神wka,4957,Valid,Stony,15500,Fell,"(52.033330, 20.935830)",1994,Poland,EU
+St-Robert,23733,Valid,Stony,25400,Fell,"(45.968610, -72.978060)",1994,Canada,NA
+Lohawat,14678,Valid,Stony,40000,Fell,"(26.965560, 72.626670)",1994,India,AS
+P姓t撰lkol姓,18800,Valid,Stony,189,Fell,"(14.052000, 0.420000)",1995,Niger,AF
+Neagari,16934,Valid,Stony,420,Fell,"(36.449170, 136.465280)",1995,Japan,AS
+Silao,23594,Valid,Stony,1710,Fell,"(20.933330, -101.383330)",1995,Mexico,NA
+Galkiv,10850,Valid,Stony,5000,Fell,"(51.683330, 30.783330)",1995,Ukraine,EU
+Dong Ujimqin Qi,7706,Valid,Stony-Iron,128800,Fell,"(45.500000, 119.033330)",1995,China,AS
+Turtle Lake,47343,Valid,Stony,89.3,Fell,"(45.345830, -92.051670)",1996,United States,NA
+Tsukuba,24059,Valid,Stony,800,Fell,"(36.063330, 140.145000)",1996,Japan,AS
+Guangmingshan,11435,Valid,Stony,2910,Fell,"(39.804170, 122.763890)",1996,China,AS
+Fermo,10091,Valid,Stony,10200,Fell,"(43.181110, 13.753330)",1996,Italy,EU
+Piplia Kalan,18831,Valid,Stony,42000,Fell,"(26.034720, 73.941670)",1996,India,AS
+Vissannapeta,24188,Valid,Stony,1303.8,Fell,"(16.833330, 80.750000)",1997,India,AS
+Worden,24337,Valid,Stony,1551,Fell,"(42.384670, -83.611500)",1997,United States,NA
+Juancheng,12203,Valid,Stony,100000,Fell,"(35.500000, 115.416670)",1997,China,AS
+Kitchener,12326,Valid,Stony,202.6,Fell,"(43.383330, -80.383330)",1998,Canada,NA
+Elbert,7822,Valid,Stony,680.5,Fell,"(39.246670, -104.588170)",1998,United States,NA
+Monahans (1998),16719,Valid,Stony,2587,Fell,"(31.608330, -102.858330)",1998,United States,NA
+Chadong,5313,Valid,Stony,3700,Fell,"(28.533330, 109.316670)",1998,China,AS
+Dashoguz,6604,Valid,Stony,7000,Fell,"(41.984440, 59.685000)",1998,Turkmenistan,AS
+Ourique,18052,Valid,Stony,20000,Fell,"(37.608330, -8.280000)",1998,Portugal,EU
+Portales Valley,18874,Valid,Stony,71400,Fell,"(34.175000, -103.295000)",1998,United States,NA
+Kunya-Urgench,12379,Valid,Stony,1100000,Fell,"(42.250000, 59.200000)",1998,Turkmenistan,AS
+Dunbogan,7743,Valid,Stony,30,Fell,"(-31.666670, 152.833330)",1999,Australia,OC
+Kobe,12336,Valid,Stony,136,Fell,"(34.733330, 135.166670)",1999,Japan,AS
+Leighlinbridge,12759,Valid,Stony,271.4,Fell,"(52.666670, -6.966670)",1999,Ireland,EU
+Sabrum,22793,Valid,Stony,478,Fell,"(23.083330, 91.666670)",1999,India,AS
+Katagum,35465,Valid,Stony,1500,Fell,"(11.333330, 10.083330)",1999,Nigeria,AF
+Djoumine,7657,Valid,Stony,10000,Fell,"(36.950000, 9.550000)",1999,Tunisia,AF
+Bilanga,5045,Valid,Stony,25000,Fell,"(12.450000, -0.083330)",1999,Burkina Faso,AF
+Yafa,24351,Valid,Stony,5700,Fell,"(13.711110, 45.170000)",2000,Yemen,AS
+Tagish Lake,23782,Valid,Stony,10000,Fell,"(59.704440, -134.201390)",2000,Canada,NA
+Al Zarnkh,447,Valid,Stony,700,Fell,"(13.660330, 28.960000)",2001,Sudan,AF
+Bukhara,30448,Valid,Stony,5300,Fell,"(39.779780, 64.600350)",2001,Uzbekistan,AS
+Devgaon,6694,Valid,Stony,12000,Fell,"(19.000000, 81.000000)",2001,India,AS
+Dergaon,6664,Valid,Stony,12500,Fell,"(26.683330, 93.866670)",2001,India,AS
+Beni M'hira,5018,Valid,Stony,19000,Fell,"(32.866670, 10.800000)",2001,Tunisia,AF
+San Michele,31315,Valid,Stony,237,Fell,"(43.666670, 13.000000)",2002,Italy,EU
+Alby sur Ch姓ran,458,Valid,Stony,252,Fell,"(45.821330, 6.015330)",2002,France,EU
+Bhawad,36591,Valid,Stony,678,Fell,"(26.508330, 73.115280)",2002,India,AS
+Maromandia,15430,Valid,Stony,6000,Fell,"(-14.200000, 48.100000)",2002,Madagascar,AF
+Neuschwanstein,16950,Valid,Stony,6189,Fell,"(47.525000, 10.808330)",2002,Germany,EU
+Kilabo,12307,Valid,Stony,19000,Fell,"(12.766670, 9.800000)",2002,Nigeria,AF
+Bensour,5024,Valid,Stony,45000,Fell,"(30.000000, -7.000000)",2002,Morocco,AF
+Thuathe,23976,Valid,Stony,45300,Fell,"(-29.333330, 27.583330)",2002,Lesotho,AF
+Hoima,44714,Valid,Stony,167.7,Fell,"(1.345000, 31.472780)",2003,Uganda,AF
+Boumdeid (2003),57168,Valid,Stony,190,Fell,"(17.710670, -11.371500)",2003,Mauritania,AF
+Hiroshima,11889,Valid,Stony,414,Fell,"(34.450000, 132.383330)",2003,Japan,AS
+Ouadangou,56729,Valid,Stony,4440,Fell,"(12.900000, 0.080000)",2003,Burkina Faso,AF
+Kendrapara,12276,Valid,Stony,6669.2,Fell,"(20.462500, 86.702780)",2003,India,AS
+Kasauli,30740,Valid,Stony,16820,Fell,"(29.583330, 77.583330)",2003,India,AS
+Park Forest,18106,Valid,Stony,18000,Fell,"(41.484720, -87.679170)",2003,United States,NA
+New Orleans,16960,Valid,Stony,19256,Fell,"(29.947180, -90.109760)",2003,United States,NA
+Orlando,34489,Valid,Stony,180,Fell,"(28.547500, -81.362220)",2004,United States,NA
+Berthoud,47355,Valid,Stony,960,Fell,"(40.305830, -105.023250)",2004,United States,NA
+Kaprada,47357,Valid,Stony,1600,Fell,"(20.339160, 73.223290)",2004,India,AS
+Villalbeto de la Pe棲a,24179,Valid,Stony,3500,Fell,"(42.800000, -4.666670)",2004,Spain,EU
+Maigatari-Danduma,30751,Valid,Stony,4629,Fell,"(12.833330, 9.383330)",2004,Niger,AF
+Benguerir,30443,Valid,Stony,25000,Fell,"(32.250000, -8.150000)",2004,Morocco,AF
+Jodiya,47362,Valid,Stony,100,Fell,"(22.680000, 70.313330)",2006,India,AS
+Moss,36592,Valid,Stony,3763,Fell,"(59.433330, 10.700000)",2006,Norway,EU
+Werdama,47344,Valid,Stony,4000,Fell,"(32.797320, 21.787130)",2006,Libya,AF
+Kavarpura,47351,Valid,Iron,6800,Fell,"(25.143330, 75.813330)",2006,India,AS
+Bassikounou,44876,Valid,Stony,29560,Fell,"(15.783330, -5.900000)",2006,Mauritania,AF
+Red Canyon Lake,53502,Valid,Stony,18.41,Fell,"(38.137420, -119.758120)",2007,United States,NA
+Bunburra Rockhole,48653,Valid,Stony,324,Fell,"(-31.350000, 129.190000)",2007,Australia,OC
+Carancas,45817,Valid,Stony,342,Fell,"(-16.664440, -69.043890)",2007,Peru,SA
+Cali,45976,Valid,Stony,478,Fell,"(3.405000, -76.510000)",2007,Colombia,SA
+Puerto L錐pice,45984,Valid,Stony,500,Fell,"(39.350000, -3.516670)",2007,Spain,EU
+Didim,47350,Valid,Stony,3396,Fell,"(37.351720, 27.329970)",2007,Turkey,AS
+Mahadevpur,47361,Valid,Stony,70500,Fell,"(27.666670, 95.783330)",2007,India,AS
+Chergach ,47347,Valid,Stony,100000,Fell,"(23.696390, -5.014720)",2007,Mali,AF
+Berduc,48975,Valid,Stony,270,Fell,"(-31.910000, -58.328330)",2008,Argentina,SA
+Almahata Sitta,48915,Valid,Stony,3950,Fell,"(20.745750, 32.412750)",2008,Sudan,AF
+Santa Lucia (2008),50909,Valid,Stony,4000,Fell,"(-31.535556, -68.489444)",2008,Argentina,SA
+Kemer,53654,Valid,Stony,5760,Fell,"(36.541940, 29.418220)",2008,Turkey,AS
+Daule,51559,Valid,Stony,6580,Fell,"(-1.870890, -79.957560)",2008,Ecuador,SA
+Ple＼coi,51706,Valid,Stony,6913,Fell,"(45.275000, 26.709720)",2008,Romania,EU
+Buzzard Coulee,48654,Valid,Stony,41000,Fell,"(52.996000, -109.848170)",2008,Canada,NA
+Tamdakht,48691,Valid,Stony,100000,Fell,"(31.163330, -7.015000)",2008,Morocco,AF
+Sulagiri,48951,Valid,Stony,110000,Fell,"(12.666670, 78.033330)",2008,India,AS
+Maribo,48973,Valid,Stony,25.81,Fell,"(54.761830, 11.467450)",2009,Denmark,EU
+Grimsby,50911,Valid,Stony,215,Fell,"(43.200000, -79.616670)",2009,Canada,NA
+Whetstone Mountains,49514,Valid,Stony,2138.74,Fell,"(31.961850, -110.434183)",2009,United States,NA
+Jesenice,51589,Valid,Stony,3667,Fell,"(46.421370, 14.052170)",2009,Slovenia,EU
+Ash Creek,48954,Valid,Stony,9500,Fell,"(31.805000, -97.010000)",2009,United States,NA
+Lorton,52843,Valid,Stony,329.7,Fell,"(38.700660, -77.211630)",2010,United States,NA
+Huaxi,54719,Valid,Stony,1600,Fell,"(26.464690, 106.632410)",2010,China,AS
+Varre-Sai,53633,Valid,Stony,2500,Fell,"(-20.850010, -41.733560)",2010,Brazil,SA
+Mifflin,52090,Valid,Stony,3584,Fell,"(42.907500, -90.365560)",2010,United States,NA
+Ko″ice,53810,Valid,Stony,4300,Fell,"(48.763670, 21.176330)",2010,Slovakia,EU
+So＼tmany,53829,Valid,Stony,1066,Fell,"(54.008830, 22.005000)",2011,Poland,EU
+Boumdeid (2011),57167,Valid,Stony,3599,Fell,"(17.174930, -11.341330)",2011,Mauritania,AF
+Tissint,54823,Valid,Stony,7000,Fell,"(29.481950, -7.611230)",2011,Morocco,AF
+Thika,54493,Valid,Stony,14200,Fell,"(-1.002780, 37.150280)",2011,Kenya,AF
+Sutter's Mill,55529,Valid,Stony,992.5,Fell,"(38.803890, -120.908060)",2012,United States,NA
+Battle Mountain,56133,Valid,Stony,2900,Fell,"(40.668130, -117.189130)",2012,United States,NA
+Chelyabinsk,57165,Valid,Stony,100000,Fell,"(54.816670, 61.116670)",2013,Russia,EU

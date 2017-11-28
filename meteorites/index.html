@@ -1,0 +1,679 @@
+<html> 
+    <head>
+        <title>
+            Project: Qinwei Zhu(qz265), Ying Wang(yw775), Ningxuan He(nh374)
+        </title>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="http://d3js.org/topojson.v2.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+        <style>
+            html, body{
+                padding: 0px;
+                margin: 0px;
+                height: 100%;
+                background-color: #111036;
+                font-family: sans-serif;
+            }
+            ul{
+                list-style-type: none;
+                padding: 0px;
+            }
+            text{
+                fill: #fff;
+            }
+        .container {
+            display: -webkit-flex;
+            display: flex;
+            height: 100%;
+            }
+        nav {
+            width: 300px;
+            background-color: #111036;
+            color: #fff;
+            }
+        .flex-column {
+            position: relative;
+            -webkit-flex: 1;
+            flex: 1;
+            background-color: #181743;
+            width: 100%;
+            }
+/*        .ground-area{
+            position: absolute;
+            bottom: 0px;
+            }*/
+            .nav-section{
+/*                margin-bottom: 15px;*/
+            }
+            .nav-section-title-box{
+                border-left: 5px solid #fff;
+                height: 20px;
+                margin-bottom: 20px;
+            }
+            .section-title{
+                letter-spacing: 0.2em;
+                margin-left: 20px;
+                font-size: 14px;
+                line-height: 20px;
+/*                text-transform: capitalize;*/
+            }
+            .option-group{
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            .option, .type{
+                color: rgba(255,255,255,0.7);
+                margin-left: 30px;
+                margin-top: 10px;
+                font-weight: 100;
+                padding: 5px 10px;
+                border-bottom-left-radius: 25px;
+                border-top-left-radius: 25px;
+            }
+            input[type=range] {
+                margin-top: 30px;
+                background: transparent;
+              -webkit-appearance: none;
+                margin-left: 10%;
+                margin-right: 10%;
+                width: 80%;
+            }
+            input[type=range]:focus {
+              outline: none;
+            }
+            input[type=range]::-webkit-slider-runnable-track {
+              height: 2.5px;
+              cursor: pointer;
+              background: rgba(255,255,255,0.5);
+              border-radius: 1.5px;
+            }
+            input[type=range]::-webkit-slider-thumb {
+              border: 5px solid rgba(255,255,255,0.5);
+              height: 20px;
+              width: 20px;
+              border-radius: 15px;
+              background: #fff;
+              cursor: pointer;
+              -webkit-appearance: none;
+              margin-top: -10px;
+            }
+            .tick-box{
+              height: 40px;
+                line-height: 40px;
+              display: -webkit-flex;
+              display:         flex;
+              -webkit-align-items: center;
+                      align-items: center;
+              -webkit-justify-content: center;
+                      justify-content: center;
+            }
+            #volume{
+                color:#fff;
+            }
+            .legend{
+                height: 10px;
+                width: 10px;
+                border-radius: 5px;
+                margin-top: 2.5px;
+                margin-right: 10px;
+                float: left;
+            }
+            .stony-legend{
+                background-color: #50E3C2;
+            }
+            .iron-legend{
+                background-color: #F5A623;
+            }
+            .stony-iron-legend{
+                background-color: #FE1E9A;
+            }
+            .masslegend{
+                height: 10px;
+                border-radius: 2px;
+                margin-top: 2.5px;
+                margin-right: 10px;
+                float: left;
+                background-color: aliceblue;
+            }   
+            .group1-legend{
+                width: 5px;
+            }
+            .group2-legend{
+                width: 10px;
+            }
+            .group3-legend{
+                width: 15px;
+            }
+            .group4-legend{
+                width: 20px;
+            }
+            select {
+               -webkit-appearance: none; 
+               -moz-appearance: none;
+               appearance: none;       /* remove default arrow */
+            }
+            select::-ms-expand { 
+                display: none; /* hide the default arrow in ie10 and ie11 */
+            }
+            .count{
+                margin-left: 20px;
+                color: #fff;
+            }
+            .title{
+                font-size: 24px;
+                margin: 30px 30px;
+                line-height: 32px;
+                font-weight: 100px;
+                letter-spacing: 0.2em;
+            }
+            .slider-box{
+                background-color: #0F346B;
+                height: 80px;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="container">
+        <div class="flex-column">
+            <section class="ground-area">
+                <svg id="svg2">
+                    <lineargradient x1="0%" y1="0%" x2="0%" y2="100%" id="gradient_stony">
+                        <stop stop-color="#50E3C2" stop-opacity="0.3" offset="0%"></stop>
+                        <stop stop-color="#50E3C2" stop-opacity="1" offset="100%"></stop>
+                    </lineargradient>
+                    <lineargradient x1="0%" y1="0%" x2="0%" y2="100%" id="gradient_iron">
+                        <stop stop-color="#F5A623" stop-opacity="0.3" offset="0%"></stop>
+                        <stop stop-color="#F5A623" stop-opacity="1" offset="100%"></stop>
+                    </lineargradient>
+                    <lineargradient x1="0%" y1="0%" x2="0%" y2="100%" id="gradient_ironstony">
+                        <stop stop-color="#FE1E9A" stop-opacity="0.3" offset="0%"></stop>
+                        <stop stop-color="#FE1E9A" stop-opacity="1" offset="100%"></stop>
+                    </lineargradient>
+                </svg>
+                <script>
+                    var windowWidth = window.innerWidth-300;
+                    var windowHeight = window.innerHeight-80;
+                    //Generate Sky
+                    var starArray = [];
+                    function starGeneration(){
+                        for (i = 0; i < 30; i++) { 
+                            var x = Math.random()*windowWidth;
+                            var y = Math.random()*150;
+                            starArray.push([x,y]);
+                        };
+                    }
+                    starGeneration();
+                    var starArea = d3.select("#svg2");
+                    starArea.selectAll("scatter-dots")
+                        .data(starArray)
+                        .enter()
+                        .append("svg:circle")
+                        .attr("cx", function (d,i) { return d[0]; } )
+                        .attr("cy", function (d) { return d[1]; } )
+                        .attr("r", 1)
+                        .attr("fill", "#ACAADF");
+                    //Generate ground
+                    var ground = d3.select("#svg2");
+                    ground.attr("width", windowWidth)
+                        .attr("height", windowHeight);
+                    ground.append("circle")
+                    .attr("cx", windowWidth/2)
+                    .attr("cy", windowHeight*6.65)
+                    .attr("r", windowHeight*6)
+                    .attr("fill", "#0F346B");
+                </script>
+            </section>
+            <section>
+                <div class="slider-box">
+                    <input width="200" type="range" min="1802" max="2013" value="1" id="fader" step="1">
+                    <span class="tick-box">
+                        <output for="fader" id="volume">1802</output>
+                    </span>
+                </div>  
+            </section>
+        </div>
+        <nav>
+        <section class="nav-section">
+                <p class="title">THE FALLING OF 1000 METEORITES PEOPLE HAVE WITNESSED</p>
+            </section>
+            <section class="nav-section">
+                <span class="nav-section-title-box"><span class="section-title">METEORITE MASS (g)</span></span>
+                <ul class="option-group">
+                    <li class="option"><div class="masslegend group1-legend"></div>0~10k<span id="g1" class="count"></span></li>
+                    <li class="option"><div class="masslegend group2-legend"></div>10k~100k<span id="g2" class="count"></span></li>
+                    <li class="option"><div class="masslegend group3-legend"></div>100k~1m<span id="g3" class="count"></span></li>
+                    <li class="option"><div class="masslegend group4-legend"></div>1m+<span id="g4" class="count"></span></li>
+                </ul>
+            </section>
+            <section class="nav-section">
+                <span class="nav-section-title-box"><span class="section-title">METEORITE TYPES</span></span>
+                <ul class="option-group">
+                    <li class="type"><div class="legend stony-legend"></div><span>Stony<span id="sc" class="count"></span></span></li>
+                    <li class="type"><div class="legend iron-legend"></div>Iron<span id="ic" class="count"></span></li>
+                    <li class="type"><div class="legend stony-iron-legend"></div>Stony-Iron<span id="sic" class="count"></span></li>
+                </ul>
+            </section>
+        </nav>
+    </div>
+    <script>
+    var svg = d3.select("#svg2");
+        var recclassRange = ["Stony", "Iron", "Stony-Iron"];
+        var recclassColorRange = ["#50E3C2", "#F5A623", "#FE1E9A"];
+        var reclassColorScale = d3.scaleOrdinal()
+            .domain(recclassRange)
+            .range(recclassColorRange);
+        // Set range for size;
+        var massRange = ["g1", "g2", "g3", "g4"];
+        var radiusRange = [5, 10, 15, 20];
+        var sizeScale = d3.scaleOrdinal()
+            .domain(massRange) 
+            .range(radiusRange);
+        function position(groupAmount){
+            var positionArray = [];
+            for (i = 0; i < groupAmount; i++){
+                var startLocation = ((windowWidth-300)/groupAmount*2) - 30;
+                var interval = (windowWidth-300)/groupAmount;
+                positionArray.push(startLocation + i*interval);
+            }
+            return positionArray;
+        }
+        
+        var positions = position(6);
+        var currentCounts;
+        var currentMass;
+        var selectedContinent = "All";
+        function setSelectedContinent(contAbbr){
+            selectedContinent = contAbbr;
+            updataCount();
+            updateMass();
+        }
+        //Parse String number to number
+        function parseData(row){
+            row.id = Number(row.id);
+            row.mass = Number(row.mass);
+            row.year = Number(row.year);
+            var geo = row.GeoLocation;
+            geo = geo.substring(1, geo.length-1);
+            geo = geo.split(",");
+            geo[0] = Number(geo[0]);
+            geo[1] = Number(geo[1]);
+            row.GeoLocation = geo;
+            
+            // Categorize data into 4 groups by their mass;
+            if (row.mass < 9999) {
+                row.group = "g1";
+            } else if (row.mass > 10000 && row.mass < 99999) {
+                row.group = "g2";
+            } else if (row.mass > 100000 && row.mass < 999999) {
+                row.group = "g3";
+            } else {
+                row.group = "g4";
+            }
+            return row;
+        }
+        
+                //parse population
+        function parsePopulation(row) {
+            row.continent = row.Continents;
+            row.Population = +row.Population;
+            row.Year = +row.Year;
+            
+            return row;
+        }
+        
+        //Comparator that change input value to number
+        function ascending(a, b) {
+            a = Number(a);
+            b = Number(b);
+            return a < b ? -1 : a > b ? 1 : a >= b ? 0 : NaN;
+        }
+        //Process data
+        function selectDataBefore(continentAndYearData, time){
+            var meteoriteList = [];
+            continentAndYearData.forEach(function (continentEntry){
+                meteoriteList[continentEntry.key] = [];
+                continentEntry.values.forEach(function (timeEntry){
+                    if(Number(timeEntry.key)<=time){
+                        timeEntry.values.forEach(function (dataEntry){
+                            meteoriteList[continentEntry.key].push(dataEntry);
+                        });
+                    }
+                });
+            });
+            return meteoriteList;
+        }
+        function selectData(continentAndYearData, time){
+            var meteoriteList = [];
+            continentAndYearData.forEach(function (continentEntry){
+                meteoriteList[continentEntry.key] = [];
+                continentEntry.values.forEach(function (timeEntry){
+                    if(Number(timeEntry.key)==time){
+                        timeEntry.values.forEach(function (dataEntry){
+                            meteoriteList[continentEntry.key].push(dataEntry);
+                        });
+                    }
+                });
+            });
+            return meteoriteList;
+        }
+        
+        //Draw stack diagram
+        function drawStack(continentAndYearData, time, groups, continentAbbr, maxMeteorite){
+            var heightOfStack = windowHeight/3.6;
+            var continentDataBeforeTime = selectDataBefore(continentAndYearData, time);
+            var recclassContinents = [];
+            var massContinents = [];
+            
+            continentAbbr.forEach(function (contAbbr){
+                var recclass = d3.nest()
+                    .key(function (d){ return d.recclass; })
+                    .entries(continentDataBeforeTime[contAbbr]);
+                recclassContinents[contAbbr] = recclass;
+                
+                // mass update
+                var grouping = d3.nest()
+                    .key(function(d) { return d.group; })
+                    .entries(continentDataBeforeTime[contAbbr]);
+                massContinents[contAbbr] = grouping;
+                
+            });
+            
+            
+            var calcCounts = [];
+            continentAbbr.forEach(function (contAbbr){
+                var sic = 0;
+                var ic = 0;
+                var sc = 0;
+                calcCounts[contAbbr] = [];
+                recclassContinents[contAbbr].forEach(function (obj){
+                    if(obj.key == "Stony"){
+                        sc = obj.values.length;
+                    }else if(obj.key == "Iron"){
+                        ic = obj.values.length;
+                    }else if(obj.key == "Stony-Iron"){
+                        sic = obj.values.length;
+                    }
+                });
+                calcCounts[contAbbr]["sc"] = sc;
+                calcCounts[contAbbr]["ic"] = ic;
+                calcCounts[contAbbr]["sic"] = sic;
+            });
+            currentCounts = calcCounts;
+            updataCount();
+            
+            // mass update
+            var calcMass = [];
+            var massTotal;
+            continentAbbr.forEach(function (contAbbr){
+                var group1 = 0;
+                var group2 = 0;
+                var group3 = 0;
+                var group4 = 0;
+            
+                calcMass[contAbbr] = [];
+                massContinents[contAbbr].forEach(function(obj) {
+                
+                    if (obj.key == "g1") {
+                        group1 = obj.values.length;
+                    } else if (obj.key == "g2") {
+                        group2 = obj.values.length;
+                    } else if (obj.key == "g3") {
+                        group3 = obj.values.length;
+                    } else {
+                        group4 = obj.values.length;
+                    }
+                });
+                calcMass[contAbbr]["group1"] = group1;
+                calcMass[contAbbr]["group2"] = group2;
+                calcMass[contAbbr]["group3"] = group3;
+                calcMass[contAbbr]["group4"] = group4;
+            });
+            
+            currentMass = calcMass;
+            updateMass();
+            var classes = [];
+            continentAbbr.forEach(function (contAbbr){
+                classes[contAbbr] = [];
+                recclassContinents[contAbbr].forEach(function (d){
+                    classes[contAbbr].push(d.key);
+                });
+            });
+            //Build stackScale according to the max number of meteorites among all continents
+            var stackScale = d3.scaleLinear()
+                .domain([0,maxMeteorite])
+                .range([0, heightOfStack]);
+            continentAbbr.forEach(function (contAbbr){
+                var stack = d3.stack()
+                    .keys(classes[contAbbr])
+                    .value(function (d, key){
+                        var result;
+                        d.forEach(function (obj){
+                            if(obj.key == key)
+                                result = obj;
+                        });
+                        return result.values.length;
+                    });
+                var stackData = stack([recclassContinents[contAbbr]]);
+                // var continentFullName = {   "AS" : "Asia",
+                //                             "NA" : "North America",
+                //                             "SA" : "South America",
+                //                             "AF" : "Africa",
+                //                             "EU" : "Europe",
+                //                             "OC" : "Oceania"};
+                
+                var gStackBar = groups[contAbbr].selectAll(".stackRect").data(stackData);
+                gStackBar.enter().append("rect")
+                    .attr("class", "stackRect")
+                    .style("fill", function (d){ return reclassColorScale(d.key); })
+                    .merge(gStackBar)
+                    .attr("transform", "translate(0,"+windowHeight/1.42+")")
+                    .transition().duration(1000)
+                    .attr("rx", 3)
+                    .attr("ry", 3)
+                    .attr("width", 50)
+                    .attr("height", function (d){ return stackScale(d[0][1] - d[0][0]); })
+                    .attr("y", function (d, index){ return heightOfStack - stackScale(d[0][1] - d[0][0]) - (stackScale(d[0][0]) + index*3); });
+                gStackBar.exit().remove().transition(1000);
+            });
+        }
+        
+        function meteoriteAnimation(continentAndYearData, inputYear, groups, continentAbbr) {
+            var meteoriteData = selectData(continentAndYearData, inputYear);
+            
+            // Append circle for individual meteor
+            continentAbbr.forEach(function (contAbbr) {
+                meteoriteData[contAbbr].forEach(function (d){
+                    var randomMax = 1;
+                    var randomMin = -1;
+                    var random = Math.random()*(randomMax - randomMin) + randomMin;
+                    // Create meteors group
+                    if (d.recclass === "Stony") {       
+                        groups[contAbbr].append("rect")
+                            .attr("class", "meteors")
+                            .attr("id", "stony")
+                            .attr("x", random*30+windowHeight/25)
+                            .attr("y", -100)
+                            .attr("width", sizeScale(d.group))
+                            .attr("height", 50)
+                            .attr("rx", sizeScale(d.group)/2)
+                            .style("fill", "url(#gradient_stony)")
+                        .transition()
+                            .duration(2000)
+                            .delay(Math.random()*1000)
+                            .attr("x", random*30+windowHeight/25)
+                            .attr("y", windowHeight/1.6)
+                            .style("opacity", 0)
+                        .transition()
+                            .duration(300)
+                            .remove();
+                    } else if (d.recclass === "Iron") {
+                        groups[contAbbr].append("rect")
+                            .attr("class", "meteors")
+                            .attr("id", "iron")
+                            .attr("x", random*30+windowHeight/25)
+                            .attr("y", -100)
+                            .attr("width", sizeScale(d.group))
+                            .attr("height", 50)
+                            .attr("rx", sizeScale(d.group)/2)
+                            .style("fill", "url(#gradient_iron)")
+                        .transition()
+                            .duration(2000)
+                            .delay(Math.random()*1000)
+                            .attr("x", random*30+windowHeight/25)
+                            .attr("y", windowHeight/1.6)
+                            .style("opacity", 0)
+                        .transition()
+                            .duration(300)
+                            .remove();
+                    } else {
+                        groups[contAbbr].append("rect")
+                            .attr("class", "meteors")
+                            .attr("id", "stonyiron")
+                            .attr("x", random*30+windowHeight/25)
+                            .attr("y", -100)
+                            .attr("width", sizeScale(d.group))
+                            .attr("height", 50)
+                            .attr("rx", sizeScale(d.group)/2)
+                            .style("fill", "url(#gradient_ironstony)")
+                        .transition()
+                            .duration(2000)
+                            .delay(Math.random()*1000)
+                            .attr("x", random*30+windowHeight/25)
+                            .attr("y", windowHeight/1.6)
+                            .style("opacity", 0)
+                        .transition()
+                            .duration(300)
+                            .remove();
+                    };
+                })
+            })
+        }
+        
+        function drawPopulation(){
+            //population scale
+            var populationData = [],
+            maxPopulation;
+            var populationScale = d3.scaleLinear()
+                .domain([0,maxPopulation])
+                .range([0, heightOfStack]);
+            console.log(populationScale);
+        }
+        function updataCount(){
+            if(selectedContinent == "All"){
+                var data = [];
+                data["sic"] = 0;
+                data["ic"] = 0;
+                data["sc"] = 0;
+                continentAbbr.forEach(function (contAbbr){
+                    data["sic"] += currentCounts[contAbbr]["sic"];
+                     data["ic"] += currentCounts[contAbbr]["ic"];
+                     data["sc"] += currentCounts[contAbbr]["sc"];
+                });
+                d3.select("#sic").text(data["sic"]);
+                d3.select("#ic").text(data["ic"]);
+                d3.select("#sc").text(data["sc"]);
+            }else{
+                var data = currentCounts[selectedContinent];
+                d3.select("#sic").text(data["sic"]);
+                d3.select("#ic").text(data["ic"]);
+                d3.select("#sc").text(data["sc"]);
+            }   
+        }
+        
+        // mass update
+        function updateMass() {
+            if(selectedContinent == "All"){
+                var massdata = [];
+                massdata["group1"] = 0;
+                massdata["group2"] = 0;
+                massdata["group3"] = 0;
+                massdata["group4"] = 0;
+                continentAbbr.forEach(function (contAbbr){
+                    massdata["group1"] += currentMass[contAbbr]["group1"];
+                    massdata["group2"] += currentMass[contAbbr]["group2"];
+                    massdata["group3"] += currentMass[contAbbr]["group3"];
+                    massdata["group4"] += currentMass[contAbbr]["group4"];
+                });
+                d3.select("#g1").text(massdata["group1"]);
+                d3.select("#g2").text(massdata["group2"]);
+                d3.select("#g3").text(massdata["group3"]);
+                d3.select("#g4").text(massdata["group4"]);
+            }else{
+                var massdata = currentMass[selectedContinent];
+                d3.select("#g1").text(massdata["group1"]);
+                d3.select("#g2").text(massdata["group2"]);
+                d3.select("#g3").text(massdata["group3"]);
+                d3.select("#g4").text(massdata["group4"]);
+            }
+        }
+        
+        d3.queue()
+        .defer(d3.csv, "meteorite-cc.csv", parseData)
+        .defer(d3.csv, "continent_population.csv", parsePopulation)
+        .await(function(error, data, data2){
+        
+            //SVG Definition
+            var svg = d3.select("#svg2").append("g");
+            //Data processing
+            //Find max number of meteorite among all continent
+            var continentData = d3.nest()
+                .key(function (d){ return d.Continent; })
+                .entries(data);
+            populationData = d3.nest()
+            .key(function (d){ return d.year; })
+            .entries(data2);
+            maxPopulation = d3.max(data2, function (d){ return d.population; });
+            continentAbbr = [];
+            continentData.forEach(function (d) {
+            continentAbbr.push(d.key);
+        });
+            
+            var maxMeteorite = d3.max(continentData, function (d){ return d.values.length; });
+            var continentAndYearData = d3.nest()
+                .key(function (d){ return d.Continent; })
+                .key(function (d){ return d.year; }).sortKeys(ascending)
+                .entries(data);
+            
+            svg.attr("transform", "translate("+windowWidth/15+", 0)");    
+            var groups = [];
+            continentAbbr.forEach(function (d, index){
+                groups[d] = svg.append("g")
+                    .attr("id", d)
+                    .attr("transform", "translate("+index*(windowWidth/6)+",0)");
+                //append label
+                var continentFullName = {   "AS" : "Asia",
+                                            "NA" : "North America",
+                                            "SA" : "South America",
+                                            "AF" : "Africa",
+                                            "EU" : "Europe",
+                                            "OC" : "Oceania"};
+                groups[d].append("text")
+                    .text(continentFullName[d])
+                    .attr("y", windowHeight*2.05/3)
+                    .attr("fill", "#fff")
+                    .on("mouseover", function(){
+                        setSelectedContinent(d);
+                        console.log("over");
+                    })
+                    .on("mouseout", function(){
+                        setSelectedContinent("All");
+                    });
+            });
+            //Draw Stacks
+            var slider = d3.select("#fader");
+            var inputYear = parseInt(slider.property("value"));
+            slider.on("input", function(){
+                inputYear = parseInt(slider.property("value"));
+                
+                drawStack(continentAndYearData, inputYear, groups, continentAbbr, maxMeteorite);
+                meteoriteAnimation(continentAndYearData, inputYear, groups, continentAbbr);
+                
+                d3.select("#volume").text(inputYear);
+            });
+            
+            drawStack(continentAndYearData, inputYear, groups, continentAbbr, maxMeteorite);
+            meteoriteAnimation(continentAndYearData, inputYear, groups, continentAbbr);
+        });
+    </script>
+    </body>
+</html>
