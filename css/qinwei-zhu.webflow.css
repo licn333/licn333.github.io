@@ -219,6 +219,31 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
   padding-top: 3%;
 }
 
+.project-datavis{
+    background-color: #E6F0FF;
+    color: #fff;
+    transition: 0.2s;
+}
+.project-datavis:hover{
+  transform: translateY(-0.5em);
+  box-shadow: 0 1em 0em -0.4em #73A4E7;
+}
+
+/*.project-datavis .project-heading{
+  color: #fff;
+}
+
+.project-datavis .project-heading{
+  color: #fff;
+}
+*/
+.project-datavis-button:hover {
+  border: 1px solid #6d64e1;
+  background-color: #6d64e1;
+  color: #fff;
+  border: none;
+}
+
 .project-witus{
     background-color: #EEECFF;
     transition: 0.2s;
@@ -397,14 +422,14 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
 
 .proj-img {
   display: block;
-  width: 64%;
+  width: 70%;
   margin-right: auto;
   margin-left: auto;
 }
 
 .proj-bg-container {
   margin-top: 0px;
-  padding-top: 40px;
+  padding-top: 100px;
   padding-bottom: 40px;
 }
 
@@ -437,6 +462,7 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
   margin-top: 100px;
   margin-bottom: 40px;
   margin-left: 0px;
+  padding-left: 7%;
   font-family: 'Open Sans', sans-serif;
   font-size: 40px;
   font-weight: 100;
@@ -447,6 +473,8 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
 
 .proj-text {
   margin-bottom: 25px;
+  padding-right: 7%;
+  padding-left: 7%;
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
   line-height: 30px;
@@ -461,8 +489,9 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
 }
 
 .quote {
-  padding-left: none;
   margin-bottom: 25px;
+  padding-right: 7%;
+  padding-left: 7%;
   border-left-style: none;
   font-family: Nunito, sans-serif;
   font-size: 40px;
@@ -941,6 +970,16 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
   height: 300px;
 }
 
+.gallery-link{
+  text-decoration: none;
+  color: inherit;
+}
+
+.gallery-link:hover{
+  text-decoration: none;
+  color: inherit;
+}
+
 .about-title {
   margin-top: 200px;
   margin-bottom: 50px;
@@ -1040,6 +1079,7 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
 
 .gallery-title {
   margin-bottom: 20px;
+  padding-left: 7%;
   font-family: Nunito, sans-serif;
   font-size: 20px;
 }
@@ -1058,6 +1098,7 @@ a[ id= "blog-anchor" ]:target ~ #main article.panel {
 }
 
 .gallery-readmore {
+  padding-left: 7%;
   direction: ltr;
   font-family: Inconsolata, monospace;
   color: #9b9b9b;

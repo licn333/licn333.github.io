@@ -1,0 +1,86 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Open Sans;
+}
+
+.container {
+  height: 100%;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+
+  -ms-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -ms-box-orient: horizontal;
+  box-orient: horizontal;
+}
+
+.nav {
+height: 100%;
+width: 25%;
+-ms-flex: 0 100px;
+-webkit-box-flex:  0;
+-moz-box-flex:  0;
+-ms-box-flex:  0;
+box-flex:  0;
+}
+
+
+.main {
+  background: #f8f8f8;
+ -ms-flex: 1;
+ -webkit-box-flex: 1;
+ -moz-box-flex: 1;
+ -ms-box-flex: 1;
+ box-flex: 1;
+}
+
+.graphtitle {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: 100;
+}
+
+.searchbox{
+  color: #fff;
+  height: 80px;
+  width: 100%;
+  background-color: #6482C9;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  padding-left: 20px;
+  font-family: Open Sans;
+  font-weight: 100;
+}
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  font-weight: 100;
+    color:    #fff;
+/*    opacity:  0.8;*/
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-weight: 100;
+   color:    #fff;
+/*   opacity:  0.8;
+*/}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-weight: 100;
+   color:    #fff;
+/*   opacity:  0.8;
+*/}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-weight: 100;
+   color:    #fff;
+/*    opacity:  0.8;
+*/}
+
+#floorSVG { width:100%; height:100%; margin-left: 2.5%; margin-right: 2.5%; pointer-events: all; margin-top: 50px;}
